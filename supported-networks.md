@@ -28,8 +28,7 @@ PrimePort is a multichain NFT marketplace. You can browse, trade, and interact w
 The [XDC Network](https://xdc.org) is an enterprise-grade, EVM-compatible blockchain known for near-zero gas fees and fast block times.
 
 **What's on XDC:**
-- PRNT Staking NFTs (the original staking collection)
-- XDC Staking NFTs
+- Legacy PRNT and XDC Staking NFT collections (historical — no longer actively used)
 - Third-party NFT collections
 - Full PrimePort marketplace features: minting, drops, auctions, offers
 

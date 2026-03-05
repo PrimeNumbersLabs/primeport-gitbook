@@ -19,11 +19,11 @@ The single contract that handles PRFI ONFT ownership, staking, leveling, and mer
 
 ***
 
-## XDC Network (Chain ID: 50)
+## XDC Network (Chain ID: 50) — Legacy
+
+> The XDC staking NFT contracts below are legacy and no longer actively used. The ecosystem has migrated to PRFI ONFTs on Base. These contracts remain on-chain for existing holders.
 
 ### PRNT Staking NFTs v3
-
-The current-generation PRNT staking NFT contract on XDC.
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
@@ -32,7 +32,7 @@ The current-generation PRNT staking NFT contract on XDC.
 
 ### PRNT Staking NFTs v2
 
-The previous-generation PRNT staking contract.
+Legacy PRNT staking contract (v2).
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ The previous-generation PRNT staking contract.
 
 ### PRNT Staking NFTs v1
 
-The first-generation PRNT staking contract.
+Legacy PRNT staking contract (v1).
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |

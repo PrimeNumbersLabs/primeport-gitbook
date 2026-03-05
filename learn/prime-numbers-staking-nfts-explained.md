@@ -29,35 +29,28 @@ Each PRFI ONFT has a base multiplier determined by its rarity. By staking $PRFI,
 
 ***
 
-## PRNT Staking NFTs (XDC)
+## Legacy: PRNT Staking NFTs (XDC)
 
-The original staking NFTs on the XDC Network. Stake $PRNT tokens inside your NFT to earn monthly rewards.
+> **Historical:** PRNT Staking NFTs on XDC are the original staking collection and are no longer actively used. The ecosystem has migrated to **PRFI ONFTs on Base**. These contracts remain on-chain for existing holders.
 
 |                         |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
 | **Token staked**        | $PRNT                                                           |
 | **Network**             | XDC Network (Chain ID 50)                                       |
-| **Max level**           | 20                                                              |
+| **Status**              | Legacy — no longer actively used                                |
 | **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
-
-Each NFT has 20 levels. The more you stake and level up, the larger your share of the monthly rewards pool. If you want to withdraw your PRNT before reaching max level, you must "break" the NFT, which destroys it and returns your tokens. This deflationary mechanic makes the NFT supply decrease over time.
-
-Rewards for PRNT Staking NFTs are paid on the last day of each calendar month.
 
 ***
 
-## XDC Staking NFTs (XDC)
+## Legacy: XDC Staking NFTs (XDC)
 
-Stake $XDC tokens inside your NFT. These NFTs also have 20 levels and earn from a dedicated XDC reward pool.
+> **Historical:** XDC Staking NFTs are also part of the legacy XDC collection. These contracts remain on-chain for existing holders.
 
 |                         |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
 | **Token staked**        | $XDC                                                            |
 | **Network**             | XDC Network (Chain ID 50)                                       |
-| **Max level**           | 20                                                              |
-| **Additional feature**  | XDC Masternode locking for 7% APY                               |
-
-XDC Staking NFTs include a merge feature to combine two same-rarity NFTs into a higher-rarity one.
+| **Status**              | Legacy — no longer actively used                                |
 
 ***
 
@@ -76,11 +69,11 @@ Your **total multiplier** = base multiplier (from rarity) + added multiplier (fr
 
 ## Where to Stake
 
-| Collection        | Platform                                                          |
-| ----------------- | ----------------------------------------------------------------- |
-| **PRFI ONFTs**    | [primestaking.xyz](https://primestaking.xyz)                      |
-| **PRNT NFTs**     | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
-| **XDC NFTs**      | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
+| Collection                  | Platform                                                          |
+| --------------------------- | ----------------------------------------------------------------- |
+| **PRFI ONFTs** (active)     | [primestaking.xyz](https://primestaking.xyz)                      |
+| **PRNT NFTs** (legacy)      | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
+| **XDC NFTs** (legacy)       | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
 
 ***
 
