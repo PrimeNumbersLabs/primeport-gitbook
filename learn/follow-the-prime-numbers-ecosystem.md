@@ -10,6 +10,7 @@ Stay connected with the Prime Numbers ecosystem.
 | --------------------- | ---------------------------------------------------------------- | ------------------------------------ |
 | **Prime Numbers**     | [primenumbers.xyz](https://primenumbers.xyz)                     | Main ecosystem hub                   |
 | **PrimePort**         | [primeport.xyz](https://primeport.xyz)                          | NFT marketplace (XDC + Base)         |
+| **PrimeFi**           | [app.primefi.xyz](https://app.primefi.xyz)                     | DeFi lending and borrowing protocol  |
 | **Prime Staking**     | [primestaking.xyz](https://primestaking.xyz)                    | PRFI ONFT staking platform           |
 | **Staking Docs**      | [docs.primestaking.xyz](https://docs.primestaking.xyz)          | Staking documentation                |
 | **PrimePort Docs**    | [docs.primeport.xyz](https://docs.primeport.xyz)               | This documentation                   |

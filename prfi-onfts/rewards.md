@@ -24,9 +24,9 @@ Higher rarity and higher level = bigger share.
 
 **5%** royalty is charged on every secondary market sale of PRFI ONFTs. This royalty revenue is distributed back to all PRFI ONFT holders, weighted by multiplier.
 
-### 4. PrimeFi Profit Sharing (Coming Soon)
+### 4. PrimeFi Profit Sharing
 
-**40%** of PrimeFi (the Prime Numbers lending protocol) profits will be distributed to PRFI ONFT holders who lock their ONFTs. This creates a direct connection between DeFi activity and NFT staking rewards.
+**40%** of [PrimeFi](https://app.primefi.xyz) (the Prime Numbers lending and borrowing protocol) profits are distributed to PRFI ONFT holders who lock their ONFTs. This creates a direct connection between DeFi activity and NFT staking rewards.
 
 ***
 
@@ -37,7 +37,7 @@ Higher rarity and higher level = bigger share.
 | Monthly PRFI pool        | Monthly   |
 | PrimePort fee sharing    | Monthly   |
 | Secondary sale royalties | Monthly   |
-| PrimeFi profits          | Monthly (when live) |
+| PrimeFi profits          | Monthly             |
 
 Rewards are distributed on the **last day of each calendar month**.
 

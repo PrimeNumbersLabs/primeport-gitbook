@@ -12,7 +12,7 @@ Whether you are a creator launching a collection, a collector looking for unique
 
 1. **Multichain Support** — PrimePort operates on both the XDC Network and Base. Users can trade and interact with NFTs across supported chains from a single interface.
 
-2. **NFT Staking** — PRFI ONFTs on Base are yield-bearing vaults. Stake $PRFI inside your NFT to earn a share of the monthly reward pool, marketplace royalties, and future PrimeFi profits. [Learn more →](prfi-onfts/README.md)
+2. **NFT Staking** — PRFI ONFTs on Base are yield-bearing vaults. Stake $PRFI inside your NFT to earn a share of the monthly reward pool, marketplace royalties, and [PrimeFi](https://app.primefi.xyz) profits. [Learn more →](prfi-onfts/README.md)
 
 3. **Full-Featured Marketplace** — Fixed-price listings, timed auctions, offers, and a drops system for launching collections. All built in.
 
@@ -32,7 +32,7 @@ PrimePort is one piece of a larger ecosystem:
 | -------------------- | ---------------------------------------------------- | --------------------------------------------------------------- |
 | **PrimePort**        | Multichain NFT marketplace                           | [primeport.xyz](https://primeport.xyz)                          |
 | **Prime Staking**    | PRFI ONFT staking platform                           | [primestaking.xyz](https://primestaking.xyz)                    |
-| **PrimeFi**          | DeFi lending and borrowing protocol (coming soon)    | —                                                               |
+| **PrimeFi**          | DeFi lending and borrowing protocol                  | [app.primefi.xyz](https://app.primefi.xyz)                     |
 | **Prime Numbers**    | Ecosystem hub                                        | [primenumbers.xyz](https://primenumbers.xyz)                    |
 
 ***
