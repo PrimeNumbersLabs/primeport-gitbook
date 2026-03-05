@@ -14,11 +14,13 @@ The minting of an NFT isn't just for artists and creators. Anyone can mint an NF
 
 ### <mark style="color:purple;">**Does it cost money to mint an NFT?**</mark>
 
-Yes, whenever you mint an NFT there's a gas fee that you have to pay. However, because PrimePort is built on the XDC Network then the gas fees are pretty much zero so one XDC token will allow you to do thousands of transactions.
+Yes, whenever you mint an NFT there's a gas fee that you have to pay. On the XDC Network, gas fees are near-zero — one XDC token will last you thousands of transactions. On Base, gas fees are low thanks to Ethereum L2 scaling.
 
 ### <mark style="color:purple;">**What do I need as preparation to mint an NFT on PrimePort?**</mark>
 
-You will need an XDC-compatible wallet with at least one XDC token in it to cover any gas fees. We recommend you use a MetaMask wallet. You need your item ready to turn into an NFT and any information you wish to publish about the NFT.
+You will need an EVM-compatible wallet (we recommend MetaMask) with a small amount of the native token (XDC or ETH) to cover gas fees. You also need your item ready to turn into an NFT and any information you wish to publish about the NFT.
+
+> **Note:** Minting and contract deployment on PrimePort are currently available on the **XDC Network**. See [Getting Started](../getting-started.md) for wallet setup.
 
 ### <mark style="color:purple;">**How do I mint my NFT on the PrimePort marketplace?**</mark>
 

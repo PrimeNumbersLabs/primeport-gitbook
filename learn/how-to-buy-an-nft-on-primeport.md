@@ -14,7 +14,9 @@ We're going to run through everything using MetaMask but you'll be able to relat
 
 ### <mark style="color:purple;">**Step 1 - Using the correct network...**</mark>
 
-The Prime Numbers ecosystem is built on the XDC Network so you need to set yourself up on that network before you begin. On MetaMask or your chosen wallet, you need to add the XDC Network. Menu > Settings > Networks > Add Network > Custom Networks > and then fill out the form as shown in the picture below… The RPC Settings for the Prime Numbers RPC on the XDC Network
+Make sure your wallet is connected to the right network. For XDC collections, you need the XDC Network. For PRFI ONFTs, you need Base. See [Getting Started](../getting-started.md) for full network setup.
+
+**For XDC:** On MetaMask or your chosen wallet, add the XDC Network. Menu > Settings > Networks > Add Network > Custom Networks > and then fill out the form as shown in the picture below:
 
 <figure><img src="../.gitbook/assets/Prime Numbers RPC.PNG" alt=""><figcaption></figcaption></figure>
 

@@ -2,6 +2,8 @@
 
 In this section, we will guide you through the process of minting an NFT.
 
+> **Note:** Minting and contract deployment are currently available on the **XDC Network**. The steps below use the XDC Network and its TestNet.
+
 ### <mark style="color:purple;">**Step 1 - Connect your wallet to PrimePort**</mark>
 
 Make sure your wallet is on the XDC Network and then go to PrimePort.xyz and in the top right press the wallet button. Wallet Connect will then load so select your desired wallet which is likely to be MetaMask. Now press the wallet button in the top right again and a sign transaction will appear. Once you confirm the transaction your wallet will connect to the site and you'll know this has worked if a third button which is the profile icon appears in the top right corner.

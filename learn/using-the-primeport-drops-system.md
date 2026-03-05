@@ -2,11 +2,13 @@
 description: A guide to using the PrimePort drops system
 ---
 
-# Using the PrimePort drops system
+# Using the PrimePort Drops System
 
 <figure><img src="../.gitbook/assets/Drops System Cover Photo.png" alt=""><figcaption></figcaption></figure>
 
 In this section, we'll explain everything you need to know regarding the PrimePort drops system.
+
+> **Note:** The drops system is currently available on the **XDC Network**. The steps below use XDC.
 
 ### <mark style="color:purple;">**What’s the point of a drops system?**</mark>
 
@@ -62,4 +64,4 @@ Once you’ve made the necessary corrections then the **‘Schedule’** section
 
 This is where you can set the schedules for your drop. You can set a whitelist schedule to give certain wallet addresses early access. You could set minting waves whereby it’s cheaper if they mint an NFT in the first few days etc. Once you’ve filled out the necessary information press the create button and you’ll now see a schedule in your list.
 
-Congratulations! You have now scheduled the drop of your NFT collection and it should be visible in the **‘Upcoming’** section of the **‘Drops’** area on PrimePort. All that work has cost you next to nothing in fees because we’re built on the XDC Network where the gas fees are tiny!
+Congratulations! You have now scheduled the drop of your NFT collection and it should be visible in the **‘Upcoming’** section of the **‘Drops’** area on PrimePort. All that work has cost you next to nothing in fees because XDC Network gas fees are near-zero!

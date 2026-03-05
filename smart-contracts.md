@@ -28,7 +28,7 @@ The current-generation PRNT staking NFT contract on XDC.
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0x134279d46ce98cCa734d9a43cc3DdA63A1AC755D`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdc134279d46ce98cCa734d9a43cc3DdA63A1AC755D) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc134279d46ce98cCa734d9a43cc3DdA63A1AC755D) |
 
 ### PRNT Staking NFTs v2
 
@@ -37,7 +37,7 @@ The previous-generation PRNT staking contract.
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0xf87f7dd4e47dd5bcac902c381ea0d2730db5c6ad`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdcf87f7dd4e47dd5bcac902c381ea0d2730db5c6ad) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdcf87f7dd4e47dd5bcac902c381ea0d2730db5c6ad) |
 
 ### PRNT Staking NFTs v1
 
@@ -46,28 +46,28 @@ The first-generation PRNT staking contract.
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0x38c6ca76dC02d353E5a33D4dB916187eFe5A1473`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdc38c6ca76dC02d353E5a33D4dB916187eFe5A1473) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc38c6ca76dC02d353E5a33D4dB916187eFe5A1473) |
 
 ### XDC Staking NFTs v2
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0x9D458330e458f11fd1cE7E44B3a66568af8076a0`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdc9D458330e458f11fd1cE7E44B3a66568af8076a0) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc9D458330e458f11fd1cE7E44B3a66568af8076a0) |
 
 ### XDC Staking NFTs v1
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0x2204E4Db4D45A290e284daa6f6fb52273593B293`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdc2204E4Db4D45A290e284daa6f6fb52273593B293) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc2204E4Db4D45A290e284daa6f6fb52273593B293) |
 
 ### Vault Diamond
 
 |              |                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0xEb7bCbdCb6152e8f6b368F3843381c1F75bf247D`                                                        |
-| **Explorer** | [View on BlocksScan](https://xdcscan.com/address/xdcEb7bCbdCb6152e8f6b368F3843381c1F75bf247D) |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdcEb7bCbdCb6152e8f6b368F3843381c1F75bf247D) |
 
 ***
 
