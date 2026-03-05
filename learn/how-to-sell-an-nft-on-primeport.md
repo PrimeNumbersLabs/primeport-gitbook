@@ -2,13 +2,15 @@
 description: A guide to selling your NFT on our PrimePort Marketplace
 ---
 
-# How to Sell an NFT on Primeport
+# How to Sell an NFT on PrimePort
 
 <figure><img src="../.gitbook/assets/How to Sell On PrimePort Image.png" alt=""><figcaption></figcaption></figure>
 
-In this section, we will guide you through selling an NFT on our PrimePort Marketplace.
+In this section, we will guide you through selling an NFT on the PrimePort Marketplace.
 
-We're going to run through everything using the MetaMask IOS Mobile app but you'll be able to relate the information to whatever platform you're using as long as it's compatible with the XDC Network.
+> **Multichain note:** PrimePort supports both the **XDC Network** and **Base**. The steps below use the XDC Network as an example, but the same selling flow applies on Base. See [Getting Started](../getting-started.md) for wallet setup.
+
+We're going to run through everything using MetaMask but you'll be able to relate the information to whatever EVM-compatible wallet you're using.
 
 ### <mark style="color:purple;">**Step 1 - Make sure you're on the correct network...**</mark>
 

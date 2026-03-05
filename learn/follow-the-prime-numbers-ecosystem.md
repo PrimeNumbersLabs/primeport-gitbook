@@ -1,45 +1,61 @@
-# Follow the Prime Numbers ecosystem
+# Community & Links
 
-<figure><img src="../.gitbook/assets/Prime Numbers Twitter Banner.png" alt=""><figcaption></figcaption></figure>
+Stay connected with the Prime Numbers ecosystem.
 
-Thank you for taking the time to read our GitBook about the PrimePort marketplace. We have a wealth of information you can access regarding the rest of the Prime Numbers ecosystem. Check out all the below...
+***
 
-### <mark style="color:purple;">**Websites...**</mark>
+## Websites
 
-Check out our websites that are a part of the Prime Numbers ecosystem.
+| Site                  | URL                                                              | Description                          |
+| --------------------- | ---------------------------------------------------------------- | ------------------------------------ |
+| **Prime Numbers**     | [primenumbers.xyz](https://primenumbers.xyz)                     | Main ecosystem hub                   |
+| **PrimePort**         | [primeport.xyz](https://primeport.xyz)                          | NFT marketplace (XDC + Base)         |
+| **Prime Staking**     | [primestaking.xyz](https://primestaking.xyz)                    | PRFI ONFT staking platform           |
+| **Staking Docs**      | [docs.primestaking.xyz](https://docs.primestaking.xyz)          | Staking documentation                |
+| **PrimePort Docs**    | [docs.primeport.xyz](https://docs.primeport.xyz)               | This documentation                   |
 
-[<mark style="color:purple;">**primenumbers.xyz**</mark>](https://primenumbers.xyz/) - This is the main Prime Numbers website for the ecosystem.
+***
 
-<mark style="color:purple;">**primestaking.xyz**</mark> - This is the staking website for your staking NFTs.
+## Social Media
 
-[<mark style="color:purple;">**primeport.xyz**</mark>](https://primeport.xyz/) - This is the website for our NFT marketplace which is called PrimePort
+| Platform     | Account                                                                    | Description                              |
+| ------------ | -------------------------------------------------------------------------- | ---------------------------------------- |
+| **X / Twitter** | [@PrimeNumbersFi](https://x.com/PrimeNumbersFi)                        | Main ecosystem account                   |
+| **X / Twitter** | [@PrimePortXYZ](https://x.com/PrimeportXYZ)                            | PrimePort marketplace                    |
+| **X / Twitter** | [@PrimeFinanceXYZ](https://x.com/PrimeFinanceXYZ)                      | PrimeFi lending protocol                 |
+| **Medium**      | [@PrimeNumbersFi](https://medium.com/@PrimeNumbersFi)                  | Articles, tutorials, and updates         |
+| **YouTube**     | [@PrimeNumbersLabs](https://youtube.com/@PrimeNumbersLabs)             | Video tutorials and quarterly reports    |
 
-### <mark style="color:purple;">**The Whitepaper...**</mark>
+***
 
-Click [<mark style="color:purple;">**here**</mark>](https://primenumberswhitepaper.gitbook.io/prime-numbers/) to read our whitepaper
+## Community
 
-### <mark style="color:purple;">**Follow Us...**</mark>
+| Channel              | Link                                                        |
+| -------------------- | ----------------------------------------------------------- |
+| **Telegram Chat**    | [t.me/PrimeNumbersFi](https://t.me/PrimeNumbersFi)         |
+| **Telegram News**    | [t.me/PrimeNumbersChannel](https://t.me/PrimeNumbersChannel) |
+| **Community Forum**  | [community.primenumbers.xyz](https://community.primenumbers.xyz) |
 
-You can follow us on social media in several places.
+***
 
-Twitter - [<mark style="color:purple;">**@PrimeNumbersFi**</mark>](https://x.com/PrimeNumbersFi) - This is the main Twitter account for the Prime Numbers ecosystem
+## Marketplaces
 
-Twitter - [<mark style="color:purple;">**@PrimeFinanceXYZ**</mark>](https://x.com/PrimeFinanceXYZ) - This is the Twitter account for our borrowing and lending protocol which is called PrimeFinance
+| Marketplace  | Collection                                                                                       |
+| ------------ | ------------------------------------------------------------------------------------------------ |
+| **PrimePort** | [primeport.xyz](https://primeport.xyz)                                                          |
+| **OpenSea**   | [PRFI ONFTs](https://opensea.io/collection/primenumbers-prfi-onft)                              |
 
-Twitter - [<mark style="color:purple;">**@PrimePortXYZ**</mark>](https://x.com/PrimeportXYZ) - This is the Twitter account for the NFT marketplace which is called PrimePort
+***
 
-Medium - [<mark style="color:purple;">**@PrimeNumbersFi**</mark>](https://medium.com/@PrimeNumbersFi) - This is our account on Medium. We post most of our written content here so be sure to check it out as there's plenty more for you to read.
+## Documentation
 
-YouTube - [<mark style="color:purple;">**@PrimeNumbersLabs**</mark>](https://youtube.com/@PrimeNumbersLabs) - This is our account on YouTube. You'll find lots of video tutorials for our ecosystem along with our quarterly stats show.
+| Resource                  | Link                                                                                                  |
+| ------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **PrimePort Docs**        | [docs.primeport.xyz](https://docs.primeport.xyz)                                                     |
+| **Staking Docs**          | [docs.primestaking.xyz](https://docs.primestaking.xyz/products/prfi-staking-nfts)                    |
+| **Whitepaper**            | [Prime Numbers Whitepaper](https://primenumberswhitepaper.gitbook.io/prime-numbers/)                 |
+| **PRFI Contract (GitHub)**| [prfi-nft-contracts](https://github.com/PrimeNumbersLabs/prfi-nft-contracts)                         |
 
-### <mark style="color:purple;">**Our Community...**</mark>
+***
 
-Prime Numbers Community Forum - Click [<mark style="color:purple;">**here**</mark>](https://community.primenumbers.xyz/) to join our Prime Numbers Community Forum
-
-Telegram Chat - Click [<mark style="color:purple;">**here**</mark>](https://t.me/PrimeNumbersFi) to join our Telegram chat community
-
-Telegram Announcements - Click [<mark style="color:purple;">**here**</mark>](https://t.me/PrimeNumbersChannel) to join our Telegram Announcements channel
-
-
-
-Welcome to our community! Thanks for reading.
+Welcome to the community. We are glad to have you here.

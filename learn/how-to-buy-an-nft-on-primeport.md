@@ -6,9 +6,11 @@ description: A guide to buying an NFT on our PrimePort marketplace
 
 <figure><img src="../.gitbook/assets/How to Buy Image.png" alt=""><figcaption></figcaption></figure>
 
-In this section, we will guide you through buying a PRFI Staking NFT on our PrimePort Marketplace.
+In this section, we will guide you through buying an NFT on the PrimePort Marketplace.
 
-We're going to run through everything using the MetaMask IOS Mobile app but you'll be able to relate the information to whatever platform you're using as long as it's compatible with the XDC Network.
+> **Multichain note:** PrimePort supports both the **XDC Network** and **Base** (Ethereum L2). The steps below use the XDC Network as an example, but the same buying flow applies on Base — just switch your wallet to the Base network and use ETH for gas. See [Getting Started](../getting-started.md) for wallet setup on both chains.
+
+We're going to run through everything using MetaMask but you'll be able to relate the information to whatever EVM-compatible wallet you're using.
 
 ### <mark style="color:purple;">**Step 1 - Using the correct network...**</mark>
 

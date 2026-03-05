@@ -1,59 +1,91 @@
----
-hidden: true
----
+# Staking NFTs Explained
 
-# Prime Numbers Staking NFTs Explained
+Prime Numbers Labs pioneered the concept of **staking NFTs** — NFTs that act as vaults for cryptocurrency tokens. By staking tokens inside your NFT, you earn a share of a monthly reward pool, and your NFT becomes a yield-generating asset.
 
-<figure><img src="../.gitbook/assets/StakingPlatform.gif" alt=""><figcaption></figcaption></figure>
+***
 
-In this section, we explain the mechanics behind the revolutionary Prime Numbers Staking NFTs.&#x20;
+## PRFI ONFTs (Base)
 
-### <mark style="color:purple;">**What are staking NFTs?**</mark>
+The latest generation of staking NFTs lives on the **Base** network (Ethereum L2). These are called **PRFI ONFTs** (Omnichain NFTs via LayerZero).
 
-The Prime Numbers staking NFTs are like vaults or piggy banks. By purchasing one of these NFTs you can stake certain crypto tokens inside of it. Each NFT has 20 levels, the more you level it up, the more you receive from the rewards pool. Each level requires a certain number of tokens to reach the next level. Levelling up your NFT increases the multiplier which means you get a bigger share of the rewards. Each NFT has a different base multiplier depending on its rarity.
+|                         |                                                                 |
+| ----------------------- | --------------------------------------------------------------- |
+| **Token staked**        | $PRFI                                                           |
+| **Monthly reward pool** | 100,000 PRFI distributed across all staked NFTs                 |
+| **Additional rewards**  | Marketplace royalties + 40% of PrimeFi profits                  |
+| **Max level**           | 20                                                              |
+| **Network**             | Base (Chain ID 8453)                                            |
+| **Marketplace**         | [PrimePort](https://primeport.xyz) · [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft) |
 
-### <mark style="color:purple;">**What are the rarities of the NFTs?**</mark>
+Each PRFI ONFT has a base multiplier determined by its rarity. By staking $PRFI, you increase your level and added multiplier, which increases your share of the reward pool.
 
-Each staking NFT has a different rarity. The higher the rarity of the NFT the higher the base multiplier for that NFT. Your base multiplier along with your added multiplier equals your total multiplier which determines how much your share of the rewards pool is each month. Your added multiplier comes from the levels inside the NFT. Each level you complete adds 0.1 to your added multiplier so by reaching the max level of 20 your added multiplier will be maxed out at 2.0 which then gets added to your base multiplier to give the NFT its total multiplier.
+**Key differences from the XDC staking NFTs:**
+- The **level is computed on-chain** from the staked balance (not stored as a separate value)
+- There is no "Stake in Level" field — only total staked and PRFI needed to reach the next level
+- The **merge system** allows you to combine two same-rarity NFTs into a higher-tier NFT
+- PRFI ONFTs are **omnichain** — they can be bridged to other chains via LayerZero
 
-### <mark style="color:purple;">**Where can I buy these NFTs?**</mark>
+→ [Full PRFI ONFT Documentation](../prfi-onfts/README.md)
 
-Currently, there are two types of NFTs available on the PrimePort marketplace. We have the PRNT Staking NFTs which you can stake PRNT tokens inside of and the XDC Staking NFTs where you can stake your XDC inside of it. Both NFTs have 20 levels inside the NFT to complete.
+***
 
-### <mark style="color:purple;">**How do I stake?**</mark>
+## PRNT Staking NFTs (XDC)
 
-Connect the wallet containing your NFTs to the Prime Numbers staking website and then you'll be able to access the staking interfaces for each type of NFT. The Prime Numbers staking website is [https://staking.primenumbers.xyz/](https://staking.primenumbers.xyz/)
+The original staking NFTs on the XDC Network. Stake $PRNT tokens inside your NFT to earn monthly rewards.
 
-### <mark style="color:purple;">**When do I receive the rewards?**</mark>
+|                         |                                                                 |
+| ----------------------- | --------------------------------------------------------------- |
+| **Token staked**        | $PRNT                                                           |
+| **Network**             | XDC Network (Chain ID 50)                                       |
+| **Max level**           | 20                                                              |
+| **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
 
-Rewards for both the PRNT and XDC Staking NFTs get paid out on the last day of each calendar month. The XDC masternode rewards also get paid out on the last day of each month.&#x20;
+Each NFT has 20 levels. The more you stake and level up, the larger your share of the monthly rewards pool. If you want to withdraw your PRNT before reaching max level, you must "break" the NFT, which destroys it and returns your tokens. This deflationary mechanic makes the NFT supply decrease over time.
 
-### <mark style="color:purple;">**Where do I receive the rewards?**</mark>
+Rewards for PRNT Staking NFTs are paid on the last day of each calendar month.
 
-When you claim your rewards all the rewards get added to your NFT.
+***
 
-### <mark style="color:purple;">**How do I collect my rewards?**</mark>
+## XDC Staking NFTs (XDC)
 
-Once the rewards have been sent at the end of each month you need to go and claim those rewards. Simply connect your wallet to the staking website, go to your NFT and press the claim rewards button.
+Stake $XDC tokens inside your NFT. These NFTs also have 20 levels and earn from a dedicated XDC reward pool.
 
-For the XDC Staking NFTs, go to your NFT and press the Claim XDC button. Once the transaction completes the rewards will be added to your NFT. Click [here](https://medium.com/@PrimeNumbersFi/claiming-your-xdc-rewards-cc37d94f6ace) to read our guide about claiming your XDC rewards or [here](https://youtu.be/ZXRXU1gvHNg) to watch our video tutorial.
+|                         |                                                                 |
+| ----------------------- | --------------------------------------------------------------- |
+| **Token staked**        | $XDC                                                            |
+| **Network**             | XDC Network (Chain ID 50)                                       |
+| **Max level**           | 20                                                              |
+| **Additional feature**  | XDC Masternode locking for 7% APY                               |
 
-For the PRNT Staking NFTs, go to your NFT and press the Claim PRNT button. Once the transaction completes the rewards will be added to your NFT. Click [here](https://medium.com/@PrimeNumbersFi/how-to-claim-your-prnt-staking-nft-rewards-cf7d7e33e47b) to read our guide about claiming your PRNT rewards or [here](https://youtu.be/OdvkTKwJYbg) to watch our video tutorial. The rewards get paid into the NFT and contribute to it reaching the next level. Once your NFT is at the max level of 20 then the **'Get Surplus'** button becomes available and you can withdraw all your surplus rewards each month.
+XDC Staking NFTs include a merge feature to combine two same-rarity NFTs into a higher-rarity one.
 
-The PRNT Staking NFTs are known as vaults or piggy banks because if you want your PRNT tokens back before the NFT reaches max level then you have to break open the NFT which destroys it and the tokens then get transferred back into your wallet. This is why the NFTs are so valuable because the NFT supply is deflationary.
+***
 
-### <mark style="color:purple;">**Where do the rewards come from?**</mark>
+## How Staking Rewards Work
 
-For the PRNT Staking NFTs, there's a rewards pool that was created in May 2022 and it will last for six years. The PRNT NFT holders get a share of the 20,000 PRNT tokens paid out each month. The royalties on resales of these NFTs are set at 10%.  Half of those royalties (5%) get paid out to PRNT NFT holders at the end of each month. The PrimePort marketplace fee is 1.5% and 0.25% of all NFT sales is sent back to PRNT NFT holders as rewards. The main source of rewards will come from Prime Numbers Finance once that is fully up and running. PRNT NFT holders get 40% of the Prime Numbers Finance profits each month.
+All staking NFTs follow the same core principle:
 
-For the XDC Staking NFTs, there's a rewards pool that was created in April 2023 and it will last for two years. 30% of the minting funds from this collection were placed into the rewards pool and 82,000 XDC gets paid back to the XDC Staking NFT holders at the end of each calendar month. However, the main source of rewards will come from Prime Numbers Finance and when it's fully up and running the XDC NFT holders will get 10% of the Prime Numbers Finance profits per month.
+1. **Stake tokens** inside your NFT
+2. **Level up** as your staked balance grows
+3. **Earn monthly rewards** proportional to your total multiplier
+4. **Claim rewards** through the staking platform at the end of each month
 
-Also, if you locked your NFT up in the Prime Numbers XDC Masternode then you get 7% in rewards per year. These rewards get paid into your NFT at the end of each month at the same time as the staking rewards.
+Your **total multiplier** = base multiplier (from rarity) + added multiplier (from levels). A higher total multiplier means a bigger share of the reward pool.
 
-### <mark style="color:purple;">**What other features do the staking NFTs have?**</mark>
+***
 
-The XDC Staking NFTs include a feature where you can merge two NFTs of the same rarity together to make one NFT of a higher rarity.
+## Where to Stake
 
-### <mark style="color:purple;">**Conclusion...**</mark>
+| Collection        | Platform                                                          |
+| ----------------- | ----------------------------------------------------------------- |
+| **PRFI ONFTs**    | [primestaking.xyz](https://primestaking.xyz)                      |
+| **PRNT NFTs**     | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
+| **XDC NFTs**      | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
 
-All in all our staking NFTs are revolutionary. NFTs are a great way to stake your crypto and earn a passive income. With the supplies being deflationary these NFTs will increase in value over time as fewer NFTs will exist.
+***
+
+## See Also
+
+- [**PRFI ONFTs**](../prfi-onfts/README.md) — Full documentation for PRFI ONFTs on Base
+- [**Staking Mechanics**](../prfi-onfts/staking-mechanics.md) — Levels, multipliers, and requirements
+- [**Smart Contracts**](../smart-contracts.md) — All verified contract addresses
