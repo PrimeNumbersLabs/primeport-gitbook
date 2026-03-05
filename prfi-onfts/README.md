@@ -13,6 +13,7 @@ PRFI ONFTs are yield-bearing NFTs on the **Base** network (Ethereum L2). Each NF
 | **Total supply**        | 4,111 unique NFTs (only 2,333 were ever minted)                                        |
 | **Staked token**        | $PRFI                                                                                   |
 | **Monthly reward pool** | 100,000 PRFI distributed across all staked NFTs                                         |
+| **Additional rewards**  | NFT marketplace royalties + 40% of PrimeFi profits                                      |
 | **Max level**           | 20                                                                                      |
 | **Merge system**        | Combine two same-rarity NFTs into a higher tier                                         |
 | **Contract**            | [`0x693A3A45Ff596024f844Be1cc6845d59F778dCF5`](https://basescan.org/address/0x693a3a45ff596024f844be1cc6845d59f778dcf5) |

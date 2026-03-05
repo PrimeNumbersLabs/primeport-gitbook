@@ -42,11 +42,7 @@ Total Multiplier = Base Multiplier + Added Multiplier
 
 ## Why Multipliers Matter
 
-The monthly reward distribution is proportional to your total multiplier relative to all other stakers. A higher multiplier means you receive a larger slice of the 100,000 PRFI monthly pool.
-
-```
-Your Share = (Your Total Multiplier / Sum of All Multipliers) × 100,000 PRFI
-```
+The 100,000 PRFI monthly pool is split 50/50: half based on your total multiplier alone, half based on multiplier × staked amount. A higher multiplier and more staked PRFI means a larger share of both halves.
 
 This creates a direct incentive to:
 - Acquire higher-rarity NFTs for a stronger base multiplier

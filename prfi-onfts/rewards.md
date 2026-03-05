@@ -8,13 +8,18 @@ PRFI ONFT holders earn from multiple sources. Rewards accumulate automatically a
 
 ### 1. Monthly $PRFI Rewards
 
-**100,000 $PRFI** is distributed monthly across all staked PRFI ONFTs. Your share is proportional to your total multiplier relative to the sum of all multipliers in the pool.
+**100,000 $PRFI** is distributed monthly across all staked PRFI ONFTs. Rewards are split into two equal portions:
+
+- **Part 1 (50,000 PRFI)** — Based on your **total multiplier** relative to all other NFTs
+- **Part 2 (50,000 PRFI)** — Based on your **multiplier × staked amount** relative to all other NFTs
 
 ```
-Your Monthly Reward = (Your Total Multiplier / Sum of All Multipliers) × 100,000 PRFI
+Part 1 = (Your Total Multiplier / Sum of All Multipliers) × 50,000 PRFI
+Part 2 = (Your Multiplier × Your Stake / Sum of All Multiplier×Stake) × 50,000 PRFI
+Total  = Part 1 + Part 2
 ```
 
-Higher rarity and higher level = bigger share.
+This dual approach ensures that both NFT quality (rarity and level) and staking commitment are rewarded. A high-rarity NFT with a large stake earns the most.
 
 ### 2. PrimePort Fee Sharing
 
@@ -22,11 +27,11 @@ Higher rarity and higher level = bigger share.
 
 ### 3. Royalties from Secondary Sales
 
-**5%** royalty is charged on every secondary market sale of PRFI ONFTs. This royalty revenue is distributed back to all PRFI ONFT holders, weighted by multiplier.
+NFT holders receive **50%** of all PrimePort marketplace royalties on secondary sales. The royalty rate is 10%, meaning **5% of each sale price** is distributed to all PRFI ONFT holders, weighted by multiplier.
 
 ### 4. PrimeFi Profit Sharing
 
-**40%** of [PrimeFi](https://app.primefi.xyz) (the Prime Numbers lending and borrowing protocol) profits are distributed to PRFI ONFT holders who lock their ONFTs. This creates a direct connection between DeFi activity and NFT staking rewards.
+**40%** of [PrimeFi](https://app.primefi.xyz) lending and borrowing protocol profits are distributed to PRFI ONFT holders. To be eligible for PrimeFi rewards, you need to **lock your NFT on PrimeFi** for a specified period.
 
 ***
 

@@ -64,7 +64,22 @@ The staking logic lives in the verified smart contract on Base. Key functions in
 
 ## Locking
 
-You can optionally **lock** your PRFI ONFT for a period of time. Locking may provide additional benefits in the future (e.g., boosted rewards from PrimeFi). The lock status is visible on the NFT detail page.
+You can optionally **lock** your PRFI ONFT on PrimeFi for a specified period. Locking is required to be eligible for the **40% PrimeFi profit sharing** rewards. The lock status is visible on the NFT detail page.
+
+***
+
+## Interface Actions
+
+| Action | Description |
+| ------ | ----------- |
+| **Stake** | Deposit PRFI into the NFT to earn rewards and level up |
+| **Get Surplus** | Withdraw PRFI above 41,490 for free once the NFT reaches max level |
+| **Burn to Redeem** | Destroy the NFT to withdraw all staked PRFI |
+| **Withdraw PRFI** | Remove PRFI with a 20% fee (redistributed to other holders) |
+| **Claim PRFI** | Claim monthly rewards |
+| **Transfer** | Move the NFT to another wallet |
+| **Sell** | List or auction the NFT on [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft) (Base) |
+| **Merge** | Combine two same-rarity NFTs into a higher-rarity NFT |
 
 ***
 
