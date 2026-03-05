@@ -19,31 +19,31 @@ The staked $PRFI is held inside the NFT's smart contract. Your level is computed
 
 There are **20 levels**. Each level requires a cumulative total of staked $PRFI and adds **+0.1** to your multiplier.
 
-| Level | Added Multiplier | Total $PRFI Required |
-| ----- | ---------------- | -------------------- |
-| 0     | 0.0              | 0                    |
-| 1     | 0.1              | 3                    |
-| 2     | 0.2              | 7.5                  |
-| 3     | 0.3              | 15                   |
-| 4     | 0.4              | 25.5                 |
-| 5     | 0.5              | 37.5                 |
-| 6     | 0.6              | 70                   |
-| 7     | 0.7              | 94                   |
-| 8     | 0.8              | 120                  |
-| 9     | 0.9              | 152                  |
-| 10    | 1.0              | 192                  |
-| 11    | 1.1              | 300                  |
-| 12    | 1.2              | 360                  |
-| 13    | 1.3              | 430                  |
-| 14    | 1.4              | 500                  |
-| 15    | 1.5              | 575                  |
-| 16    | 1.6              | 792                  |
-| 17    | 1.7              | 900                  |
-| 18    | 1.8              | 1,020                |
-| 19    | 1.9              | 1,200                |
-| 20    | 2.0              | 1,500                |
+| Level | Added Multiplier | Total PRFI Staked | PRFI Needed to Level Up |
+| ----- | ---------------- | ----------------- | ----------------------- |
+| 0     | 0.0              | 0                 | 15                      |
+| 1     | 0.1              | 15                | 22.5                    |
+| 2     | 0.2              | 37.5              | 37.5                    |
+| 3     | 0.3              | 75                | 75                      |
+| 4     | 0.4              | 150               | 127.5                   |
+| 5     | 0.5              | 277.5             | 187.5                   |
+| 6     | 0.6              | 465               | 350                     |
+| 7     | 0.7              | 815               | 470                     |
+| 8     | 0.8              | 1,285             | 600                     |
+| 9     | 0.9              | 1,885             | 760                     |
+| 10    | 1.0              | 2,645             | 960                     |
+| 11    | 1.1              | 3,605             | 1,500                   |
+| 12    | 1.2              | 5,105             | 1,800                   |
+| 13    | 1.3              | 6,905             | 2,150                   |
+| 14    | 1.4              | 9,055             | 2,500                   |
+| 15    | 1.5              | 11,555            | 2,875                   |
+| 16    | 1.6              | 14,430            | 3,960                   |
+| 17    | 1.7              | 18,390            | 4,500                   |
+| 18    | 1.8              | 22,890            | 5,100                   |
+| 19    | 1.9              | 27,990            | 6,000                   |
+| 20    | 2.0              | 33,990            | 7,500                   |
 
-> The "Total $PRFI Required" column shows the cumulative amount needed to reach that level. You can check your current level and the PRFI needed to reach the next level on the NFT detail page on PrimePort.
+> **PRFI needed to max out an NFT = 41,490.** You can check your current level and the PRFI needed to reach the next level on the NFT detail page on PrimePort.
 
 ***
 
