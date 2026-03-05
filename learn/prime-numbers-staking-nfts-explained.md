@@ -38,7 +38,7 @@ Each PRFI ONFT has a base multiplier determined by its rarity. By staking $PRFI,
 | **Token staked**        | $PRNT                                                           |
 | **Network**             | XDC Network (Chain ID 50)                                       |
 | **Status**              | Legacy — no longer actively used                                |
-| **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
+| **Staking platform**    | [primestaking.xyz](https://primestaking.xyz)    |
 
 ***
 
@@ -56,7 +56,7 @@ Gamified staking vaults on XDC. Each NFT holds **psXDC** (not raw XDC) and earns
 | **Max stake per NFT**   | 100,000 psXDC                                                   |
 | **Base APY**            | ~4.75% (staked, unlocked)                                       |
 | **Max APY**             | Up to 6% (staked + 1-year lock)                                 |
-| **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
+| **Staking platform**    | [primestaking.xyz](https://primestaking.xyz)    |
 
 **How it works:** Get psXDC (liquid-stake XDC or buy on a DEX) → deposit psXDC inside your NFT → level up and earn monthly XDC rewards. Optionally lock your NFT for 1 year for an additional 1.25% APY bonus.
 
@@ -84,8 +84,8 @@ Your **total multiplier** = base multiplier (from rarity) + added multiplier (fr
 | Collection                  | Platform                                                          |
 | --------------------------- | ----------------------------------------------------------------- |
 | **PRFI ONFTs** (active)     | [primestaking.xyz](https://primestaking.xyz)                      |
-| **XDC Staking NFTs** (active) | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)   |
-| **PRNT NFTs** (legacy)      | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
+| **XDC Staking NFTs** (active) | [primestaking.xyz](https://primestaking.xyz)   |
+| **PRNT NFTs** (legacy)      | [primestaking.xyz](https://primestaking.xyz)      |
 
 ***
 
