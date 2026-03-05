@@ -6,20 +6,22 @@ Every PRFI ONFT has a **rarity tier** that determines its **base multiplier**. H
 
 ## Rarity Tiers
 
-Each NFT's global rarity is calculated by averaging the rarity scores of its five art elements (rounded up).
+Each NFT's global rarity is calculated by averaging the rarity scores of its five art elements (rounded up). The collection originally had 4,331 possible NFTs, of which only 2,333 were minted.
 
-| Rarity        | Base Multiplier |
-| ------------- | --------------- |
-| **Common**    | 1               |
-| **Uncommon**  | 2               |
-| **Rare**      | 3               |
-| **Epic**      | 4               |
-| **Legendary** | 5               |
-| **Mythic**    | 6               |
-| **Godly**     | 7               |
-| **Unique**    | 8               |
+| Rarity Level | Base Multiplier | Rarity Name   | Minted | Original Supply |
+| ------------ | --------------- | ------------- | ------ | --------------- |
+| 0            | 0.1             | OG NFTs       | 220    | 220             |
+| 1            | 0.3             | Plentiful     | 34     | 47              |
+| 2            | 0.4             | Common        | 442    | 911             |
+| 3            | 0.5             | Uncommon      | 678    | 1,326           |
+| 4            | 0.7             | Rare          | 394    | 767             |
+| 5            | 0.9             | Epic          | 299    | 553             |
+| 6            | 1.2             | Legendary     | 172    | 391             |
+| 7            | 1.5             | Mythic        | 78     | 93              |
+| 8            | 1.9             | Godly         | 1      | 8               |
+| 9            | 2.0             | Handmade      | 15     | 15              |
 
-> **Example:** An NFT with Vegetation (Mythic, 7), Figure (Epic, 5), Shape (Legendary, 6), Lines (Rare, 4), and Background (Godly, 8) has an average of (7+5+6+4+8)/5 = 6.0, which rounds to **Legendary** with a base multiplier of **5**.
+> **Example:** A Legendary NFT has a base multiplier of **1.2**. At level 12, the added multiplier is 1.2, giving a total multiplier of **2.4**.
 
 ***
 
@@ -34,7 +36,7 @@ Total Multiplier = Base Multiplier + Added Multiplier
 - **Base Multiplier** — Fixed by your NFT's rarity (see table above)
 - **Added Multiplier** — Increases by **+0.1** for each level you complete (max +2.0 at level 20)
 
-**Example:** A Legendary NFT (base 5) at level 12 has an added multiplier of 1.2, giving a total multiplier of **6.2**.
+**Example:** A Legendary NFT (base 1.2) at level 12 has an added multiplier of 1.2, giving a total multiplier of **2.4**.
 
 ***
 
