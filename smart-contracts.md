@@ -19,9 +19,36 @@ The single contract that handles PRFI ONFT ownership, staking, leveling, and mer
 
 ***
 
-## XDC Network (Chain ID: 50) — Legacy
+## XDC Network (Chain ID: 50)
 
-> The XDC staking NFT contracts below are legacy and no longer actively used. The ecosystem has migrated to PRFI ONFTs on Base. These contracts remain on-chain for existing holders.
+### XDC Staking NFTs v2
+
+Active XDC staking NFT contract.
+
+|              |                                                                                                     |
+| ------------ | --------------------------------------------------------------------------------------------------- |
+| **Contract** | `0x9D458330e458f11fd1cE7E44B3a66568af8076a0`                                                        |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc9D458330e458f11fd1cE7E44B3a66568af8076a0) |
+
+### XDC Staking NFTs v1
+
+|              |                                                                                                     |
+| ------------ | --------------------------------------------------------------------------------------------------- |
+| **Contract** | `0x2204E4Db4D45A290e284daa6f6fb52273593B293`                                                        |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc2204E4Db4D45A290e284daa6f6fb52273593B293) |
+
+### Vault Diamond
+
+|              |                                                                                                     |
+| ------------ | --------------------------------------------------------------------------------------------------- |
+| **Contract** | `0xEb7bCbdCb6152e8f6b368F3843381c1F75bf247D`                                                        |
+| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdcEb7bCbdCb6152e8f6b368F3843381c1F75bf247D) |
+
+***
+
+## XDC Network — Legacy (PRNT)
+
+> PRNT Staking NFTs are legacy and no longer actively used. These contracts remain on-chain for existing holders.
 
 ### PRNT Staking NFTs v3
 
@@ -47,27 +74,6 @@ Legacy PRNT staking contract (v1).
 | ------------ | --------------------------------------------------------------------------------------------------- |
 | **Contract** | `0x38c6ca76dC02d353E5a33D4dB916187eFe5A1473`                                                        |
 | **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc38c6ca76dC02d353E5a33D4dB916187eFe5A1473) |
-
-### XDC Staking NFTs v2
-
-|              |                                                                                                     |
-| ------------ | --------------------------------------------------------------------------------------------------- |
-| **Contract** | `0x9D458330e458f11fd1cE7E44B3a66568af8076a0`                                                        |
-| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc9D458330e458f11fd1cE7E44B3a66568af8076a0) |
-
-### XDC Staking NFTs v1
-
-|              |                                                                                                     |
-| ------------ | --------------------------------------------------------------------------------------------------- |
-| **Contract** | `0x2204E4Db4D45A290e284daa6f6fb52273593B293`                                                        |
-| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdc2204E4Db4D45A290e284daa6f6fb52273593B293) |
-
-### Vault Diamond
-
-|              |                                                                                                     |
-| ------------ | --------------------------------------------------------------------------------------------------- |
-| **Contract** | `0xEb7bCbdCb6152e8f6b368F3843381c1F75bf247D`                                                        |
-| **Explorer** | [View on XDCScan](https://xdcscan.com/address/xdcEb7bCbdCb6152e8f6b368F3843381c1F75bf247D) |
 
 ***
 

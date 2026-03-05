@@ -42,15 +42,19 @@ Each PRFI ONFT has a base multiplier determined by its rarity. By staking $PRFI,
 
 ***
 
-## Legacy: XDC Staking NFTs (XDC)
+## XDC Staking NFTs (XDC) — Active
 
-> **Historical:** XDC Staking NFTs are also part of the legacy XDC collection. These contracts remain on-chain for existing holders.
+Stake $XDC tokens inside your NFT. These NFTs have 20 levels and earn from a dedicated XDC reward pool.
 
 |                         |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
 | **Token staked**        | $XDC                                                            |
 | **Network**             | XDC Network (Chain ID 50)                                       |
-| **Status**              | Legacy — no longer actively used                                |
+| **Max level**           | 20                                                              |
+| **Additional feature**  | XDC Masternode locking for 7% APY                               |
+| **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
+
+XDC Staking NFTs include a merge feature to combine two same-rarity NFTs into a higher-rarity one. Rewards are paid on the last day of each calendar month.
 
 ***
 
@@ -72,8 +76,8 @@ Your **total multiplier** = base multiplier (from rarity) + added multiplier (fr
 | Collection                  | Platform                                                          |
 | --------------------------- | ----------------------------------------------------------------- |
 | **PRFI ONFTs** (active)     | [primestaking.xyz](https://primestaking.xyz)                      |
+| **XDC Staking NFTs** (active) | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)   |
 | **PRNT NFTs** (legacy)      | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
-| **XDC NFTs** (legacy)       | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)      |
 
 ***
 

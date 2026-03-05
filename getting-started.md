@@ -36,7 +36,7 @@ You will need a small amount of **ETH on Base** to pay gas fees. You can bridge 
 
 ### XDC Network
 
-The XDC Network hosts third-party NFT collections and legacy staking NFTs. Minting, drops, and auctions are available on XDC.
+The XDC Network hosts active XDC Staking NFTs, third-party NFT collections, and legacy PRNT Staking NFTs. Minting, drops, and auctions are available on XDC.
 
 | Setting          | Value                                    |
 | ---------------- | ---------------------------------------- |
