@@ -44,17 +44,25 @@ Each PRFI ONFT has a base multiplier determined by its rarity. By staking $PRFI,
 
 ## XDC Staking NFTs (XDC) — Active
 
-Stake $XDC tokens inside your NFT. These NFTs have 20 levels and earn from a dedicated XDC reward pool.
+Gamified staking vaults on XDC. Each NFT holds **psXDC** (not raw XDC) and earns XDC rewards based on its rarity and level — offering higher yields than standard liquid staking.
 
 |                         |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
-| **Token staked**        | $XDC                                                            |
+| **Token staked**        | psXDC                                                           |
+| **Rewards paid in**     | XDC                                                             |
 | **Network**             | XDC Network (Chain ID 50)                                       |
+| **Collection size**     | 5,557 NFTs (5,542 generative + 15 handcrafted)                  |
 | **Max level**           | 20                                                              |
-| **Additional feature**  | XDC Masternode locking for 7% APY                               |
+| **Max stake per NFT**   | 100,000 psXDC                                                   |
+| **Base APY**            | ~4.75% (staked, unlocked)                                       |
+| **Max APY**             | Up to 6% (staked + 1-year lock)                                 |
 | **Staking platform**    | [staking.primenumbers.xyz](https://staking.primenumbers.xyz)    |
 
-XDC Staking NFTs include a merge feature to combine two same-rarity NFTs into a higher-rarity one. Rewards are paid on the last day of each calendar month.
+**How it works:** Get psXDC (liquid-stake XDC or buy on a DEX) → deposit psXDC inside your NFT → level up and earn monthly XDC rewards. Optionally lock your NFT for 1 year for an additional 1.25% APY bonus.
+
+XDC Staking NFTs include a **merge** feature — combine two same-rarity NFTs to create a higher-rarity one (both originals are burned). This makes the collection **deflationary by design**. Rewards are paid on the last day of each calendar month.
+
+The collection also includes 15 exclusive handcrafted NFTs with a base multiplier of 2.0 — the highest in the collection.
 
 ***
 
