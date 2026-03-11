@@ -6,12 +6,16 @@ PRFI ONFT holders earn from multiple sources. Rewards accumulate automatically a
 
 ## Reward Sources
 
+
+
+<figure><img src="../.gitbook/assets/prfi-rewards-diagram.svg" alt=""><figcaption></figcaption></figure>
+
 ### 1. Monthly $PRFI Rewards
 
 **100,000 $PRFI** is distributed monthly across all staked PRFI ONFTs. Rewards are split into two equal portions:
 
-- **Part 1 (50,000 PRFI)** — Based on your **total multiplier** relative to all other NFTs
-- **Part 2 (50,000 PRFI)** — Based on your **multiplier × staked amount** relative to all other NFTs
+* **Part 1 (50,000 PRFI)** — Based on your **total multiplier** relative to all other NFTs
+* **Part 2 (50,000 PRFI)** — Based on your **multiplier × staked amount** relative to all other NFTs
 
 ```
 Part 1 = (Your Total Multiplier / Sum of All Multipliers) × 50,000 PRFI
@@ -23,13 +27,13 @@ This dual approach ensures that both NFT quality (rarity and level) and staking 
 
 ### 2. PrimePort Fee Sharing
 
-**0.25%** of all PrimePort marketplace transaction volume is distributed to PRFI ONFT holders. Every time an NFT is sold on PrimePort — on any chain — stakers benefit.
+**0.25%** of all PrimePort marketplace transaction volume is distributed to PRFI ONFT holders. Every time an NFT is sold on PrimePort, on any chain, stakers benefit.
 
 ### 3. Royalties from Secondary Sales
 
 NFT holders receive **50%** of all PrimePort marketplace royalties on secondary sales. The royalty rate is 10%, meaning **5% of each sale price** is distributed to all PRFI ONFT holders, weighted by multiplier.
 
-### 4. PrimeFi Profit Sharing
+### 4. PrimeFi Profit Sharing (soon)
 
 **40%** of [PrimeFi](https://app.primefi.xyz) lending and borrowing protocol profits are distributed to PRFI ONFT holders. To be eligible for PrimeFi rewards, you need to **lock your NFT on PrimeFi** for a specified period.
 
@@ -42,7 +46,7 @@ NFT holders receive **50%** of all PrimePort marketplace royalties on secondary 
 | Monthly PRFI pool        | Monthly   |
 | PrimePort fee sharing    | Monthly   |
 | Secondary sale royalties | Monthly   |
-| PrimeFi profits          | Monthly             |
+| PrimeFi profits          | Monthly   |
 
 Rewards are distributed on the **last day of each calendar month**.
 
@@ -68,6 +72,6 @@ On PrimePort, the **Staking** tab on any PRFI ONFT detail page shows the current
 
 ## See Also
 
-- [**Staking Mechanics**](staking-mechanics.md) — Levels, daily limits, and how staking works
-- [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity determines your base multiplier
-- [**Reward System (Prime Staking Docs)**](https://docs.primestaking.xyz/products/prfi-staking-nfts/prfi-nft-staking-reward-system) — Detailed reward system documentation
+* [**Staking Mechanics**](staking-mechanics.md) — Levels, daily limits, and how staking works
+* [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity determines your base multiplier
+* [**Reward System (Prime Staking Docs)**](https://docs.primestaking.xyz/products/prfi-staking-nfts/prfi-nft-staking-reward-system) — Detailed reward system documentation

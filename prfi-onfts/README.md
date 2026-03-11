@@ -1,23 +1,26 @@
 # What are PRFI ONFTs?
 
-PRFI ONFTs are yield-bearing NFTs on the **Base** network (Ethereum L2). Each NFT is a vault that stores $PRFI tokens. By staking $PRFI inside your ONFT, you activate its multiplier and earn a share of the monthly reward pool.
+PRFI ONFTs are yield-bearing NFTs on Base (Ethereum L2). Each one is an on-chain\
+vault that holds $PRFI tokens and earns from four revenue sources simultaneously.\
+The higher the rarity and the more $PRFI staked inside, the larger the share of\
+monthly rewards.
 
 ***
 
 ## At a Glance
 
-|                         |                                                                                         |
-| ----------------------- | --------------------------------------------------------------------------------------- |
-| **Network**             | Base (Chain ID 8453)                                                                    |
-| **Token standard**      | ERC-721 (ONFT via LayerZero)                                                            |
-| **Total supply**        | 4,111 unique NFTs (only 2,333 were ever minted)                                        |
-| **Staked token**        | $PRFI                                                                                   |
-| **Monthly reward pool** | 100,000 PRFI distributed across all staked NFTs                                         |
-| **Additional rewards**  | NFT marketplace royalties + 40% of PrimeFi profits                                      |
-| **Max level**           | 20                                                                                      |
-| **Merge system**        | Combine two same-rarity NFTs into a higher tier                                         |
+|                         |                                                                                                                         |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Network**             | Base (Chain ID 8453)                                                                                                    |
+| **Token standard**      | ERC-721 (ONFT via LayerZero)                                                                                            |
+| **Total supply**        | 4,111 unique NFTs (only 2,333 were ever minted)                                                                         |
+| **Staked token**        | $PRFI                                                                                                                   |
+| **Monthly reward pool** | 100,000 PRFI distributed across all staked NFTs                                                                         |
+| **Additional rewards**  | NFT marketplace royalties + 40% of PrimeFi profits                                                                      |
+| **Max level**           | 20                                                                                                                      |
+| **Merge system**        | Combine two same-rarity NFTs into a higher tier                                                                         |
 | **Contract**            | [`0x693A3A45Ff596024f844Be1cc6845d59F778dCF5`](https://basescan.org/address/0x693a3a45ff596024f844be1cc6845d59f778dcf5) |
-| **Marketplace**         | [PrimePort](https://primeport.xyz) · [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft) |
+| **Marketplace**         | [PrimePort](https://primeport.xyz) · [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft)                    |
 
 ***
 
@@ -35,11 +38,11 @@ PRFI ONFTs are yield-bearing NFTs on the **Base** network (Ethereum L2). Each NF
 
 Each PRFI ONFT is a generative artwork composed of five elements:
 
-- A **prime number** (unique to that NFT)
-- **Sensual vegetation**
-- A **geometric figure**
-- A **feminine shape**
-- **Futuristic background lines** with complementary color fades
+* A **prime number** (unique to that NFT)
+* **Sensual vegetation**
+* A **geometric figure**
+* A **feminine shape**
+* **Futuristic background lines** with complementary color fades
 
 Each element has eight variations with different rarity levels, producing 32,768 possible combinations — far more than were ever minted.
 
@@ -53,7 +56,7 @@ Every **merge burns two NFTs** and mints one of higher rarity. The collection ge
 
 ***
 
-## Omnichain Capability
+## Omnichain via LayerZero
 
 PRFI ONFTs are omnichain-capable via [LayerZero](https://layerzero.network). They can be bridged to other supported chains while preserving full staking state and reward history.
 
@@ -61,7 +64,7 @@ PRFI ONFTs are omnichain-capable via [LayerZero](https://layerzero.network). The
 
 ## Learn More
 
-- [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity determines your base multiplier
-- [**Staking Mechanics**](staking-mechanics.md) — Levels, daily limits, and how staking works
-- [**Rewards**](rewards.md) — Where rewards come from and how they are distributed
-- [**Staking Docs (Prime Staking)**](https://docs.primestaking.xyz/products/prfi-staking-nfts) — Detailed staking documentation
+* [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity determines your base multiplier
+* [**Staking Mechanics**](staking-mechanics.md) — Levels, daily limits, and how staking works
+* [**Rewards**](rewards.md) — Where rewards come from and how they are distributed
+* [**Staking Docs (Prime Staking)**](https://docs.primestaking.xyz/products/prfi-staking-nfts) — Detailed staking documentation

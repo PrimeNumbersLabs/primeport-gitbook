@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;family=Syne:wght@700;800&amp;display=swap');
+    </style>
+
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080b14"/>
+      <stop offset="100%" style="stop-color:#0d1120"/>
+    </linearGradient>
+
+    <!-- Gold accent gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5c842"/>
+      <stop offset="100%" style="stop-color:#e8a020"/>
+    </linearGradient>
+
+    <!-- Card gradients -->
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2540"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2540"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+
+    <!-- Center glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f5c84222"/>
+      <stop offset="100%" style="stop-color:#f5c84200"/>
+    </radialGradient>
+
+    <!-- Stream gradients -->
+    <linearGradient id="stream1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5c842; stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f5c842; stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="stream2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f9ef5; stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#4f9ef5; stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="stream3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa; stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#a78bfa; stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="stream4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399; stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#34d399; stop-opacity:0.05"/>
+    </linearGradient>
+
+    <!-- Clip for center circle content -->
+    <clipPath id="centerClip">
+      <circle cx="450" cy="290" r="78"/>
+    </clipPath>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="580" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="145" x2="900" y2="145"/>
+    <line x1="0" y1="290" x2="900" y2="290"/>
+    <line x1="0" y1="435" x2="900" y2="435"/>
+    <line x1="225" y1="0" x2="225" y2="580"/>
+    <line x1="450" y1="0" x2="450" y2="580"/>
+    <line x1="675" y1="0" x2="675" y2="580"/>
+  </g>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="52" fill="#0a0e1a" opacity="0.8"/>
+  <rect x="0" y="50" width="900" height="1" fill="url(#goldGrad)" opacity="0.5"/>
+  <text x="450" y="33" font-family="'Space Mono', monospace" font-size="13" font-weight="700" fill="#f5c842" text-anchor="middle" letter-spacing="4">PRFI ONFT — REWARD STREAMS</text>
+
+  <!-- Footnote bottom bar -->
+  <rect x="0" y="548" width="900" height="32" fill="#0a0e1a" opacity="0.8"/>
+  <rect x="0" y="548" width="900" height="1" fill="#ffffff" opacity="0.06"/>
+  <text x="450" y="568" font-family="'Space Mono', monospace" font-size="10" fill="#4a5568" text-anchor="middle" letter-spacing="2">ALL FOUR STREAMS DISTRIBUTED ON THE LAST DAY OF EACH CALENDAR MONTH</text>
+
+  <!-- ===================== FLOW LINES ===================== -->
+  <!-- Top-left card → center -->
+  <line x1="255" y1="190" x2="372" y2="252" stroke="#f5c842" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.35"/>
+  <!-- Top-right card → center -->
+  <line x1="645" y1="190" x2="528" y2="252" stroke="#4f9ef5" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.35"/>
+  <!-- Bottom-left card → center -->
+  <line x1="255" y1="390" x2="372" y2="328" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.35"/>
+  <!-- Bottom-right card → center -->
+  <line x1="645" y1="390" x2="528" y2="328" stroke="#34d399" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.35"/>
+
+  <!-- Dot on line at card end -->
+  <circle cx="255" cy="190" r="3" fill="#f5c842" opacity="0.7"/>
+  <circle cx="645" cy="190" r="3" fill="#4f9ef5" opacity="0.7"/>
+  <circle cx="255" cy="390" r="3" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="645" cy="390" r="3" fill="#34d399" opacity="0.7"/>
+
+  <!-- ===================== CENTER CIRCLE ===================== -->
+  <circle cx="450" cy="290" r="90" fill="url(#centerGlow)" opacity="0.6"/>
+  <circle cx="450" cy="290" r="78" fill="#0d1525" stroke="#f5c842" stroke-width="1.5" opacity="1"/>
+  <circle cx="450" cy="290" r="74" fill="none" stroke="#f5c842" stroke-width="0.4" stroke-dasharray="3,6" opacity="0.4"/>
+
+  <!-- NFT icon – simplified hexagon -->
+  <polygon points="450,248 476,263 476,293 450,308 424,293 424,263" fill="none" stroke="#f5c842" stroke-width="1.8" opacity="0.9" filter="url(#glow)"/>
+  <text x="450" y="287" font-family="'Space Mono', monospace" font-size="11" font-weight="700" fill="#f5c842" text-anchor="middle" letter-spacing="1">PRFI</text>
+  <text x="450" y="300" font-family="'Space Mono', monospace" font-size="9" fill="#f5c842" text-anchor="middle" opacity="0.7" letter-spacing="2">ONFT</text>
+
+  <text x="450" y="322" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle" letter-spacing="1">HOLDER</text>
+
+  <!-- ===================== CARD 1 — TOP LEFT ===================== -->
+  <!-- Monthly PRFI -->
+  <rect x="52" y="110" width="206" height="162" rx="10" fill="url(#card1)" stroke="#f5c842" stroke-width="1.2" opacity="0.95"/>
+  <rect x="52" y="110" width="206" height="4" rx="2" fill="#f5c842" opacity="0.8"/>
+
+  <!-- Color tag -->
+  <rect x="64" y="126" width="4" height="36" rx="2" fill="#f5c842"/>
+
+  <!-- Stream number -->
+  <text x="78" y="136" font-family="'Space Mono', monospace" font-size="9" fill="#f5c842" letter-spacing="2" opacity="0.8">STREAM 01</text>
+  <text x="78" y="155" font-family="'Space Mono', monospace" font-size="13" font-weight="700" fill="#ffffff">MONTHLY $PRFI</text>
+
+  <line x1="64" y1="168" x2="246" y2="168" stroke="#ffffff" stroke-width="0.4" opacity="0.12"/>
+
+  <!-- Big number -->
+  <text x="155" y="200" font-family="'Space Mono', monospace" font-size="28" font-weight="700" fill="#f5c842" text-anchor="middle" filter="url(#glow)">100K</text>
+  <text x="155" y="214" font-family="'Space Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="2">PRFI / MONTH</text>
+
+  <!-- Split explanation -->
+  <text x="64" y="238" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">50K → multiplier weight</text>
+  <text x="64" y="254" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">50K → multiplier × stake</text>
+
+  <!-- ===================== CARD 2 — TOP RIGHT ===================== -->
+  <!-- Marketplace Fees -->
+  <rect x="642" y="110" width="206" height="162" rx="10" fill="url(#card2)" stroke="#4f9ef5" stroke-width="1.2" opacity="0.95"/>
+  <rect x="642" y="110" width="206" height="4" rx="2" fill="#4f9ef5" opacity="0.8"/>
+
+  <rect x="654" y="126" width="4" height="36" rx="2" fill="#4f9ef5"/>
+  <text x="668" y="136" font-family="'Space Mono', monospace" font-size="9" fill="#4f9ef5" letter-spacing="2" opacity="0.8">STREAM 02</text>
+  <text x="668" y="155" font-family="'Space Mono', monospace" font-size="13" font-weight="700" fill="#ffffff">MARKETPLACE FEES</text>
+
+  <line x1="654" y1="168" x2="836" y2="168" stroke="#ffffff" stroke-width="0.4" opacity="0.12"/>
+
+  <text x="745" y="200" font-family="'Space Mono', monospace" font-size="28" font-weight="700" fill="#4f9ef5" text-anchor="middle" filter="url(#glow)">0.25%</text>
+  <text x="745" y="214" font-family="'Space Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="2">OF ALL VOLUME</text>
+
+  <text x="654" y="238" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">Every sale on PrimePort</text>
+  <text x="654" y="254" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">across all chains</text>
+
+  <!-- ===================== CARD 3 — BOTTOM LEFT ===================== -->
+  <!-- Royalties -->
+  <rect x="52" y="308" width="206" height="162" rx="10" fill="url(#card1)" stroke="#a78bfa" stroke-width="1.2" opacity="0.95"/>
+  <rect x="52" y="466" width="206" height="4" rx="2" fill="#a78bfa" opacity="0.8"/>
+
+  <rect x="64" y="320" width="4" height="36" rx="2" fill="#a78bfa"/>
+  <text x="78" y="330" font-family="'Space Mono', monospace" font-size="9" fill="#a78bfa" letter-spacing="2" opacity="0.8">STREAM 03</text>
+  <text x="78" y="349" font-family="'Space Mono', monospace" font-size="13" font-weight="700" fill="#ffffff">ROYALTIES</text>
+
+  <line x1="64" y1="362" x2="246" y2="362" stroke="#ffffff" stroke-width="0.4" opacity="0.12"/>
+
+  <text x="155" y="398" font-family="'Space Mono', monospace" font-size="28" font-weight="700" fill="#a78bfa" text-anchor="middle" filter="url(#glow)">5%</text>
+  <text x="155" y="412" font-family="'Space Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="2">PER SECONDARY SALE</text>
+
+  <text x="64" y="436" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">10% royalty · 50% to holders</text>
+  <text x="64" y="452" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">weighted by multiplier</text>
+
+  <!-- ===================== CARD 4 — BOTTOM RIGHT ===================== -->
+  <!-- PrimeFi -->
+  <rect x="642" y="308" width="206" height="162" rx="10" fill="url(#card2)" stroke="#34d399" stroke-width="1.2" opacity="0.95"/>
+  <rect x="642" y="466" width="206" height="4" rx="2" fill="#34d399" opacity="0.8"/>
+
+  <rect x="654" y="320" width="4" height="36" rx="2" fill="#34d399"/>
+  <text x="668" y="330" font-family="'Space Mono', monospace" font-size="9" fill="#34d399" letter-spacing="2" opacity="0.8">STREAM 04</text>
+  <text x="668" y="349" font-family="'Space Mono', monospace" font-size="13" font-weight="700" fill="#ffffff">PRIMEFI PROFITS</text>
+
+  <line x1="654" y1="362" x2="836" y2="362" stroke="#ffffff" stroke-width="0.4" opacity="0.12"/>
+
+  <text x="745" y="398" font-family="'Space Mono', monospace" font-size="28" font-weight="700" fill="#34d399" text-anchor="middle" filter="url(#glow)">40%</text>
+  <text x="745" y="412" font-family="'Space Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="2">OF LENDING PROFITS</text>
+
+  <text x="654" y="436" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">Lock NFT on PrimeFi</text>
+  <text x="654" y="452" font-family="'Space Mono', monospace" font-size="8.5" fill="#94a3b8">to activate eligibility</text>
+
+  <!-- ===================== CENTER LABEL — CLAIM ===================== -->
+  <text x="450" y="380" font-family="'Space Mono', monospace" font-size="8" fill="#f5c842" text-anchor="middle" letter-spacing="3" opacity="0.7">▼ CLAIM VIA PRIMESTAKING.XYZ</text>
+
+</svg>

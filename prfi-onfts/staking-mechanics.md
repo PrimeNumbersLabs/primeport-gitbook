@@ -51,18 +51,18 @@ There are **20 levels**. Each level requires a cumulative total of staked $PRFI 
 
 The staking logic lives in the verified smart contract on Base. Key functions include:
 
-| Function                  | Description                                              |
-| ------------------------- | -------------------------------------------------------- |
-| `getNFTData(tokenId)`     | Returns the staked amount, multiplier, and lock status   |
-| `getTokenLevel(tokenId)`  | Returns the current level (computed from staked amount)   |
+| Function                      | Description                                              |
+| ----------------------------- | -------------------------------------------------------- |
+| `getNFTData(tokenId)`         | Returns the staked amount, multiplier, and lock status   |
+| `getTokenLevel(tokenId)`      | Returns the current level (computed from staked amount)  |
 | `getAmountToLevelUp(tokenId)` | Returns how much more $PRFI is needed for the next level |
-| `checkLevel(staked)`      | Given a staked amount, returns the corresponding level    |
+| `checkLevel(staked)`          | Given a staked amount, returns the corresponding level   |
 
-> **Note:** The level is not stored on-chain — it is computed dynamically from the staked balance. This means your level updates instantly when you stake more $PRFI.
+> **Note:** The level is not stored on-chain, it is computed dynamically from the staked balance. This means your level updates instantly when you stake more $PRFI.
 
 ***
 
-## Locking
+## Locking (soon available)
 
 You can optionally **lock** your PRFI ONFT on PrimeFi for a specified period. Locking is required to be eligible for the **40% PrimeFi profit sharing** rewards. The lock status is visible on the NFT detail page.
 
@@ -70,16 +70,16 @@ You can optionally **lock** your PRFI ONFT on PrimeFi for a specified period. Lo
 
 ## Interface Actions
 
-| Action | Description |
-| ------ | ----------- |
-| **Stake** | Deposit PRFI into the NFT to earn rewards and level up |
-| **Get Surplus** | Withdraw PRFI above 41,490 for free once the NFT reaches max level |
-| **Burn to Redeem** | Destroy the NFT to withdraw all staked PRFI |
-| **Withdraw PRFI** | Remove PRFI with a 20% fee (redistributed to other holders) |
-| **Claim PRFI** | Claim monthly rewards |
-| **Transfer** | Move the NFT to another wallet |
-| **Sell** | List or auction the NFT on [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft) (Base) |
-| **Merge** | Combine two same-rarity NFTs into a higher-rarity NFT |
+| Action             | Description                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| **Stake**          | Deposit PRFI into the NFT to earn rewards and level up                                            |
+| **Get Surplus**    | Withdraw PRFI above 41,490 for free once the NFT reaches max level                                |
+| **Burn to Redeem** | Destroy the NFT to withdraw all staked PRFI                                                       |
+| **Withdraw PRFI**  | Remove PRFI with a 20% fee (redistributed to other holders)                                       |
+| **Claim PRFI**     | Claim monthly rewards                                                                             |
+| **Transfer**       | Move the NFT to another wallet                                                                    |
+| **Sell**           | List or auction the NFT on [OpenSea](https://opensea.io/collection/primenumbers-prfi-onft) (Base) |
+| **Merge**          | Combine two same-rarity NFTs into a higher-rarity NFT                                             |
 
 ***
 
@@ -87,17 +87,17 @@ You can optionally **lock** your PRFI ONFT on PrimeFi for a specified period. Lo
 
 On PrimePort, navigate to any PRFI ONFT detail page and click the **Staking** tab. You will see:
 
-- **Total PRFI** — The total amount of $PRFI staked inside the NFT
-- **Level** — The current level (0–20)
-- **Added Multiplier** — The multiplier bonus from leveling
-- **PRFI to Level Up** — How much more $PRFI is needed to reach the next level
-- **Total Multiplier** — Base multiplier + added multiplier
-- **Locked** — Whether the NFT is currently locked
+* **Total PRFI** — The total amount of $PRFI staked inside the NFT
+* **Level** — The current level (0–20)
+* **Added Multiplier** — The multiplier bonus from leveling
+* **PRFI to Level Up** — How much more $PRFI is needed to reach the next level
+* **Total Multiplier** — Base multiplier + added multiplier
+* **Locked** — Whether the NFT is currently locked
 
 ***
 
 ## See Also
 
-- [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity affects your base multiplier
-- [**Rewards**](rewards.md) — Monthly reward distribution details
-- [**Staking Docs (Prime Staking)**](https://docs.primestaking.xyz/products/prfi-staking-nfts/prfi-nfts-staking-mechanics) — Detailed staking mechanics
+* [**Rarity & Multipliers**](rarity-and-multipliers.md) — How rarity affects your base multiplier
+* [**Rewards**](rewards.md) — Monthly reward distribution details
+* [**Staking Docs (Prime Staking)**](https://docs.primestaking.xyz/products/prfi-staking-nfts/prfi-nfts-staking-mechanics) — Detailed staking mechanics
