@@ -1,35 +1,74 @@
 ---
-description: A guide to selling your NFT on our PrimePort Marketplace
+description: >-
+  You can list any NFT you own directly from your profile. PrimePort supports
+  fixed-price listings on both XDC Network and Base.
 ---
 
 # How to Sell an NFT on PrimePort
 
-<figure><img src="../.gitbook/assets/How to Sell On PrimePort Image.png" alt=""><figcaption></figcaption></figure>
+### Before You Start
 
-In this section, we will guide you through selling an NFT on the PrimePort Marketplace.
+* Your wallet connected to PrimePort on the correct network
+* The NFT you want to sell in your wallet (not locked or staked elsewhere)
+* A small amount of native gas token (XDC or ETH) to sign the listing transaction
 
-> **Multichain note:** PrimePort supports both the **XDC Network** and **Base**. The steps below use the XDC Network as an example, but the same selling flow applies on Base. See [Getting Started](../getting-started.md) for wallet setup.
+***
 
-We're going to run through everything using MetaMask but you'll be able to relate the information to whatever EVM-compatible wallet you're using.
+### Step 1. Go to Your Profile
 
-### <mark style="color:purple;">**Step 1 - Make sure you're on the correct network...**</mark>
+Click your wallet address or the **Profile** icon in the top-right corner and select **My Profile**. Your wallet's NFTs will appear here.
 
-At the top of the MetaMask app, it should show that you're connected to the XDC Network as shown in the picture below...
+***
 
-<figure><img src="../.gitbook/assets/MetaMask Select Network Option.PNG" alt=""><figcaption></figcaption></figure>
+### Step 2. Open the NFT and Click Sell
 
-If you're not currently connected to the XDC Network then hit the dropdown arrow and select the XDC Network. If you don't have the XDC Network as an option then please go back to the previous section about **'How to buy an NFT on PrimePort'** and complete Step 1 which explains how to add a network.
+Click the NFT you want to list. On the detail page, click the **Sell** button.
 
-### <mark style="color:purple;">**Step 2 - Connect your wallet to PrimePort...**</mark>
+***
 
-Once you're on the XDC Network then connect to PrimePort.xyz and in the top right you'll see the wallet symbol. Press it once and select MetaMask and then press it again and sign the connect wallet transaction.
+### Step 3. Configure Your Listing
 
-When your wallet is successfully connected you'll see the profile icon in the top right corner. Tap on it and then select **'My Profile'** and this is where you can see all the NFTs in your wallet.
+Fill in the listing details:
 
-### <mark style="color:purple;">**Step 3 - Selling your NFT...**</mark>
+* **Currency.** Select the currency for the sale (XDC on XDC Network, ETH on Base)
+* **Price.** Enter your asking price
+* **Expiry date.** Set when the listing should expire
 
-Click on the NFT you want to sell and then press the **'Sell'** button. You'll see a drop-down box that says **'Select Currency'** which is where you need to choose which currency you want to use to sell your NFT.
+Check the **I agree to the Terms of Service** box and click **List Item**.
 
-Next input how much you want to sell your NFT for and then select a date for when the listing will end. Tick the **'I agree to Terms of Service'** box and then press the **'List Item'** button and you'll get a transaction pop-up you need to confirm. Once you confirm the pop-up you'll get a second message asking you to sign the transaction and then it'll say your listing is ready.
+***
 
-Congratulations! You have now listed one of your NFTs for sale on the PrimePort marketplace. Your listing will end on the date you specified.
+### Step 4.  Confirm the Transaction
+
+Your wallet will prompt you to approve the listing transaction. Confirm it. A second signature request may appear, sign it to finalize the listing.
+
+Once confirmed, your NFT will appear as **For Sale** on the collection page and in marketplace search results.
+
+***
+
+### Step 5.  Managing Your Listing
+
+To update or cancel a listing, go to **My Profile**, open the NFT, and select **Cancel Listing**. Cancelling requires a small gas transaction.
+
+If a buyer submits an **offer** below your asking price, you will see it on the NFT detail page. You can accept or ignore it, accepting triggers an on-chain transfer and the proceeds go directly to your wallet.
+
+***
+
+### Fee Breakdown
+
+When your NFT sells, the following fees are deducted from the sale price:
+
+| Fee                | Amount         | Recipient                                 |
+| ------------------ | -------------- | ----------------------------------------- |
+| Marketplace fee    | 0.25%          | PRFI ONFT holders                         |
+| Collection royalty | set by creator | 50% to PRFI ONFT holders · 50% to creator |
+
+The amount you receive = sale price minus marketplace fee minus royalty.
+
+***
+
+### See Also
+
+* How to Buy an NFT
+* Using the Auction System
+* Getting Started. Wallet setup and network configuration

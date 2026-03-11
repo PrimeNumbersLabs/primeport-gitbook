@@ -4,48 +4,81 @@ description: A guide to buying an NFT on our PrimePort marketplace
 
 # How to Buy an NFT on PrimePort
 
-<figure><img src="../.gitbook/assets/How to Buy Image.png" alt=""><figcaption></figcaption></figure>
 
-In this section, we will guide you through buying an NFT on the PrimePort Marketplace.
 
-> **Multichain note:** PrimePort supports both the **XDC Network** and **Base** (Ethereum L2). The steps below use the XDC Network as an example, but the same buying flow applies on Base — just switch your wallet to the Base network and use ETH for gas. See [Getting Started](../getting-started.md) for wallet setup on both chains.
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-11 a las 17.03.48.png" alt=""><figcaption></figcaption></figure>
 
-We're going to run through everything using MetaMask but you'll be able to relate the information to whatever EVM-compatible wallet you're using.
+PrimePort supports two networks: **XDC Network** and **Base** (Ethereum L2). The buying flow is identical on both, the only difference is which network your wallet is on and which token you use for gas.
 
-### <mark style="color:purple;">**Step 1 - Using the correct network...**</mark>
+> **PRFI ONFTs** are on Base and priced in ETH. **XDC collections** are on XDC Network and priced in XDC.
 
-Make sure your wallet is connected to the right network. For XDC collections, you need the XDC Network. For PRFI ONFTs, you need Base. See [Getting Started](../getting-started.md) for full network setup.
+***
 
-**For XDC:** On MetaMask or your chosen wallet, add the XDC Network. Menu > Settings > Networks > Add Network > Custom Networks > and then fill out the form as shown in the picture below:
+### Before You Start
 
-<figure><img src="../.gitbook/assets/Prime Numbers RPC.PNG" alt=""><figcaption></figcaption></figure>
+* An EVM-compatible wallet installed (MetaMask recommended)
+* Your wallet connected to the correct network, see Getting Started
+* Sufficient funds for the NFT price + gas
 
-Now that you're on the correct network you'll see you have a native XDC wallet which means you're ready to explore PrimePort.
+***
 
-### <mark style="color:purple;">**Step 2 - Figure out which NFT you want to purchase...**</mark>
+### Step 1. Connect Your Wallet
 
-Next, you want to decide which NFT you want to purchase. On MetaMask make sure you're connected to the XDC Network and then hit the browser button. You want to search for https://primeport.xyz and this will take you to the Prime Numbers marketplace called PrimePort.
+Go to [primeport.xyz](https://primeport.xyz) and click **Connect Wallet** in the top-right corner. Select your wallet provider and approve the connection request.
 
-In the top right corner, you'll see three lines, press that and then select Collections. Scroll down until you find the **'Prime Numbers'** collection and then click on it to view the collection. Scroll down the list and see all the NFTs that are up for sale in the PRFI Staking NFT Collection.
+Once connected, your wallet address and balance will appear in the navbar.
 
-### <mark style="color:purple;">**Step 3 - Funding your wallet...**</mark>
+{% hint style="info" %}
+If you are buying a PRFI ONFT, make sure your wallet is set to the **Base** network before connecting. If you are buying an XDC collection, switch to **XDC Network**.
+{% endhint %}
 
-Okay so now you've decided which NFT you want to buy it's time to fund your wallet. You can buy XDC on Bitrue or if you prefer to use a DEX then XSwap is a good option. To find out which exchanges sell a certain token go to CoinGecko, find the token and then click on the **'Markets'** section. This shows you all the exchanges that sell the token and which ones have the best liquidity.
+***
 
-Remember when you purchase the NFT you'll need a tiny bit of XDC to pay the tiny gas fee. One XDC token will last you ages although the minimum withdrawal on Bitrue is 20 XDC so make sure you've got the gas side of things covered.
+### Step 2. Find the NFT You Want to Buy
 
-Now that you've purchased the necessary tokens you need to send them to your MetaMask wallet. The important thing to remember here is that you use the XDC Network when doing the transfer and that you edit your MetaMask address first.
+Browse collections from the homepage or use the **Collections** menu to find a specific project. Open a collection and use the **Items** tab to see all NFTs currently listed for sale.
 
-MetaMask addresses start with 0x but if you're sending tokens to the XDC Network then you need to remove the 0x and replace it with xdc in order for it to work. If you put your normal MetaMask address into the withdrawal form on Bitrue then it'll say **"wrong address"** when you press the withdraw button because you haven't replaced the 0x with xdc
+You can filter by price, sort by rarity, or search by Token ID to narrow down your options.
 
-We suggest you set it up as a withdrawal address and send a small amount first to test it and then once it arrives in your MetaMask wallet you can send a large amount of money because you know it'll definitely arrive.
+***
 
-### <mark style="color:purple;">**Step 4 - Buying the NFT...**</mark>
+### Step 3. Open the NFT Detail Page
 
-Now that you have the necessary funds in place you can purchase the NFT. Go to the PrimePort marketplace and connect your wallet. Press the profile icon in the top right corner and then select MetaMask. You'll get the sign transaction pop-up so press the sign button to connect your wallet to the marketplace. You'll know your wallet is connected when you press the profile icon again and it shows your XDC balance.
+Click any listed NFT to open its detail page. Here you will see:
 
-Now locate the NFT you wish to purchase and click on it. Click the Buy button and then tick the **"I agree to the Terms of Service"** box and then press Confirm. You'll get the transaction screen pop-up and you need to press the Confirm button to sign the transaction. The transaction will then be submitted and should be completed pretty quickly. Once it completes you'll see a message saying Purchase Done Congratulations!
+* Current listing price
+* Rarity and traits
+* Owner history and activity
+* For PRFI ONFTs: staking level, multiplier, and staked PRFI
 
-To check you've received the NFT click the **'Profile'** icon in the top right corner and then select **'My Profile'**. Here you'll see all the NFTs in your portfolio and should be able to find the one you just purchased.
+***
 
-Congratulations, you're now the proud owner of a PRFI Staking NFT and you've completed your first purchase using our PrimePort Marketplace.
+### Step 4. Complete the Purchase
+
+Click **Buy Now**. Review the order summary, price, gas estimate, and any applicable royalties. Check the **Terms of Service** box and click **Confirm**.
+
+Your wallet will prompt you to approve the transaction. Confirm it and wait for the transaction to finalize on-chain. You will see a confirmation message once the purchase is complete.
+
+***
+
+### Step 5. Verify in Your Profile
+
+Click your wallet address or the **Profile** icon in the top-right corner and select **My Profile**. Your newly acquired NFT will appear in your portfolio.
+
+
+
+***
+
+### Funding Your Wallet
+
+**For Base (ETH):** Bridge ETH to Base via the [official Base bridge](https://bridge.base.org) or buy ETH directly on Base through an on-ramp like Coinbase.
+
+**For XDC Network:** Purchase XDC on a supported exchange (check [CoinGecko Markets](https://www.coingecko.com/en/coins/xdc-network) for current liquidity) and send it to your wallet on the XDC Network.
+
+***
+
+### See Also
+
+* Getting Started — Wallet setup and network configuration
+* Supported Networks — Chain details and RPC endpoints
+* How to Sell an NFT

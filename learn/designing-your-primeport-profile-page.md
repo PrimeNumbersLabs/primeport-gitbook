@@ -1,27 +1,64 @@
 ---
-description: A guide to designing your profile page on the PrimePort Marketplace
+description: >-
+  Your profile is your public identity on PrimePort. It shows your NFT
+  portfolio, your activity, and any context you want to share with other
+  collectors and creators.
 ---
 
-# Designing your PrimePort profile page
+# Designing Your Profile Page
 
-<figure><img src="../.gitbook/assets/Designing your profile cover photo.png" alt=""><figcaption></figcaption></figure>
+### Accessing Your Profile
 
-In this section, we'll guide you through customising your profile page. This is the place where other users can see your NFTs and info about you, the collector or artist.
+Connect your wallet, click the profile icon in the top-right corner, and select **My Profile** to view your public profile, or **Edit Profile** to customize it.
 
-Firstly, connect your wallet to the PrimePort website. Once connected press the profile icon in the top right corner and select **'Edit Profile'**.
+***
 
-At the top of the page, you can edit your cover photo which is the banner displayed across the top of your profile.
+### Editing Your Profile
 
-Next is your profile image. This is the image that is front and centre of your profile whenever someone visits it so make it a good one.
+Go to **Edit Profile** to configure the following fields:
 
-Next is the Username section, which is what you want to call your profile.
+**Cover photo** — the banner image displayed across the top of your profile. Recommended dimensions: 1400 × 400px or wider. Supports JPG, PNG, GIF.
 
-Next up is your bio where you can choose to tell the world about yourself, your thoughts about NFTs or whatever you want.
+**Profile image** — your avatar, shown on your profile page and next to your username across the marketplace. Square format recommended.
 
-Email address is the next section and this isn't public information. This is purely for PrimePort to be able to send you an email notification if there are any bids on your NFTs or if an NFT you put up for sale has been sold etc
+**Username** — your display name on PrimePort. Visible on NFT listings, activity feeds, and the Holders tab on collection pages.
 
-The final section is where you can place all your links. Twitter, Facebook, Discord, Instagram, and your website.
+**Bio** — a free-text description. Use it to describe your focus as a collector or creator, link to your work, or leave it blank.
 
-Once you've finished editing all the above make sure you hit the 'Update Profile' button which will save all the information you've just added.
+**Email address** — not public. Used by PrimePort to send notifications for bids received, sales completed, and other account activity.
 
-Congratulations! You're PrimePort profile now looks great so be sure to keep it fresh and up to date.
+**Social links** — add links to Twitter, Discord, Instagram, Facebook, and your website. These appear on your public profile.
+
+Once all fields are filled in, click **Update Profile** to save.
+
+***
+
+### What Your Profile Shows
+
+Your public profile displays:
+
+* **Owned** — all NFTs currently in your wallet across supported chains
+* **Created** — NFTs minted under contracts you deployed on PrimePort
+* **Activity** — your transaction history: purchases, sales, bids, and offers
+* **Offers** — active offers you have made or received
+
+***
+
+### Notifications
+
+PrimePort sends email notifications to the address on your profile for:
+
+* A bid placed on one of your auctions
+* An offer made on one of your listed NFTs
+* A sale completed on a fixed-price listing
+* An outbid event on an auction you are participating in
+
+To manage notifications, keep your email address current in Edit Profile.
+
+***
+
+### See Also
+
+* How to Sell an NFT
+* Using the Auction System
+* Minting NFTs on PrimePort

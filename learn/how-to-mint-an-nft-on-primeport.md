@@ -1,49 +1,100 @@
-# How to Mint an NFT on PrimePort
+# How to Mint an NFT
 
-In this section, we will guide you through the process of minting an NFT.
+PrimePort lets creators deploy their own ERC-721 smart contract and mint NFTs directly on-chain, no third-party launchpad required. The minting flozw runs on **XDC Network**, with near-zero gas fees.
 
-> **Note:** Minting and contract deployment are currently available on the **XDC Network**. The steps below use the XDC Network and its TestNet.
+> **Prerequisites:** An EVM-compatible wallet (MetaMask recommended) connected to XDC Network with a small amount of XDC for gas. See Getting Started for network setup.
 
-### <mark style="color:purple;">**Step 1 - Connect your wallet to PrimePort**</mark>
+***
 
-Make sure your wallet is on the XDC Network and then go to PrimePort.xyz and in the top right press the wallet button. Wallet Connect will then load so select your desired wallet which is likely to be MetaMask. Now press the wallet button in the top right again and a sign transaction will appear. Once you confirm the transaction your wallet will connect to the site and you'll know this has worked if a third button which is the profile icon appears in the top right corner.
+### Single NFT vs. Batch Minting
 
-### <mark style="color:purple;">**Step 2 - Start creating your Smart Contract**</mark>
+|               | Single NFT                | Batch NFT                      |
+| ------------- | ------------------------- | ------------------------------ |
+| Use case      | One-of-a-kind pieces      | Collections of multiple NFTs   |
+| Upload method | Individual form           | Individual or CSV bulk upload  |
+| Contract      | Shared per creator wallet | Same contract, multiple tokens |
 
-On the PrimePort home screen, you'll see an **'Upload'** button. Press that and then press the **'New Contract'** button. Now you'll see a form you need to fill out regarding the Smart Contract you're going to create for your NFT. Give your contract a name and symbol. Select the ERC721 type and then place your cursor in the **'Ascii Mark'** section and you'll see on the right-hand side the word **'TOOL'** so click on where it says **'TOOL'**. This will take you to a site where you can create your Ascii Mark which is like a trademark for your NFT. In the box where it says **'Type Something'** enter your trademark and you'll see it gets printed in the box below. Copy everything in the box below back into the Ascii Mark section on PrimePort.
+Both options follow the same contract deployment flow below.
 
-Next, tick the **'I agree to terms of service'** box and then hit the **'Deploy in TestNet'** button. This will then ask you to switch to the XDC Test Network so first make a note of the Faucet address on the screen as you're going to need to grab yourself some Test XDC coins for the next bit and then press the **'Change Network'** button and MetaMask will swap you over to the Test Network.
+***
 
-Now go to the faucet and get yourself some Test XDC which is totally free. Make sure your address starts with xdc so if you're using MetaMask you might need to change the 0x at the start of your address to xdc. Once you have some Test XDC in your wallet go back to PrimePort and press the **'Continue'** button.
+### Step 1. Deploy on TestNet First
 
-This will start the deployment of your Smart Contract. First, it will compile your contract and then it'll ask you to sign the transaction which is why you need some Test XDC. Once you confirm the transaction it will then deploy your contract to the TestNet.
+Before minting to MainNet, test your setup on the XDC TestNet at zero cost.
 
-### <mark style="color:purple;">**Step 3 - Mint a TestNet NFT**</mark>
+1. Connect your wallet to [primeport.xyz](https://primeport.xyz) on the **XDC Network**
+2. Click **Upload** on the homepage
+3. Click **New Contract** and fill in the form:
+   * **Name** — your contract/collection name
+   * **Symbol** — short ticker (e.g. `ARTXYZ`)
+   * **Type** — ERC-721
+   * **Ascii Mark** — a text-based trademark for your collection. Click **TOOL** to open the generator, create your mark, copy it back into the field
+4. Agree to Terms of Service and click **Deploy on TestNet**
+5. When prompted, switch to the XDC TestNet in your wallet
+6. Get free Test XDC from the faucet link shown on screen _(your address must start with `xdc` — replace `0x` if using MetaMask)_
+7. Return to PrimePort and click **Continue** to deploy the contract
 
-The next step is to mint an NFT on the TestNet so on the screen you should see a list of **'Next Steps'**. Click on **'Mint A NFT On TestNet'** and then select **'Single NFT'** or **'Batch NFT'** whichever one you want to practice.
+***
 
-On the next screen, you'll see a form where you can upload the image for your NFT. You can then give it a title, description and properties. Lastly, tick the **'I agree to terms of service'** box and then press the **'Update Metadata'** button.
+### Step 2. Mint a TestNet NFT
 
-Now press the **'Deploy on TestNet'** button and then **'Continue'** and you'll be asked if you want to mint this yourself or airdrop it to someone else. Select your preferred choice and then hit **'Mint'** and again MetaMask will pop up asking you to sign the transaction.
+Once your TestNet contract is deployed, click **Mint A NFT On TestNet** from the Next Steps list. Select **Single NFT** or **Batch NFT**.
 
-Once the process completes you can now go to your profile and view your NFT to make sure you're happy with how everything looks.
+Fill in the NFT form:
 
-### <mark style="color:purple;">**Step 4 - Deploy your Smart Contract on the MainNet**</mark>
+* **Image** — upload your artwork file
+* **Title** and **Description**
+* **Properties** — add any trait metadata (key / value pairs)
 
-Now that you've had practice minting your NFT on the TestNet and you're happy with how it looks it's time to do it for real on the MainNet. So press the **'Upload'** button and then you'll see your Smart Contracts so select the one you created earlier and you'll see the list of **'Next Steps'** again.
+Click **Update Metadata**, then **Deploy on TestNet**. Choose whether to mint to your own wallet or airdrop to another address. Click **Mint** and confirm the transaction.
 
-Click the **'Deploy Contract on MainNet'** step and it'll ask you to change network again. Once you have changed the network click **'Continue'** and then it'll start deploying your Contract to the MainNet. Once that completes successfully you're ready to start minting your NFTs on the MainNet.
+Go to your profile to verify the NFT looks correct before proceeding to MainNet.
 
-### <mark style="color:purple;">**Step 5 - Mint a MainNet NFT**</mark>
+***
 
-The next step in the list is to **'Mint A NFT On MainNet'** so click on that step and then select Single or Batch. Fill out the form as you did before and then tick the terms of service box and then hit the **'Update Metadata'** button. Once your Metadata has been updated successfully then hit the **'Deploy on Mainnet'** button.
+### Step 3. Deploy Your Contract on MainNet
 
-Again it'll ask if you want to mint this to yourself or airdrop it to someone else. Choose your preference and then hit **'Mint'** and it'll start minting your NFT to the MainNet.
+Once you're satisfied with the TestNet result:
 
-### <mark style="color:purple;">**Step 6 - Set up your royalties.**</mark>
+1. Click **Upload** and select your existing contract
+2. Click **Deploy Contract on MainNet**
+3. Switch back to XDC MainNet when prompted and click **Continue**
+4. Confirm the deployment transaction, this uses a small amount of real XDC
 
-The final step on the list is to set up your royalties and add your collection information. Give your collection a Cover Photo and Image. Add a description, slug, and link to your website. In the Fee Recipient box enter the wallet address you want the royalties to be sent to and then set the royalty percentage.
+***
 
-Once you're happy with all the information you've entered hit the **'Update Collection'** button and that's it! You're all done!
+### Step 4. Mint on MainNet
 
-Congratulations! You have now successfully minted your NFT(s) on the PrimePort marketplace. All that's left now is to promote your NFT on social media and get yourself some sales!
+Click **Mint A NFT On MainNet** from the Next Steps list. Follow the same form as TestNet — upload image, add title, description, and properties.
+
+Click **Update Metadata**, then **Deploy on Mainnet**. Select mint-to-self or airdrop, click **Mint**, and confirm the transaction.
+
+Your NFT is now live on XDC MainNet and visible on PrimePort.
+
+***
+
+### Step 5. Configure Royalties and Collection Info
+
+The final step is **Update Collection**:
+
+* **Cover photo and image** — displayed on the collection page
+* **Description and slug** — your collection's public identity
+* **Website link**
+* **Fee recipient** — wallet address that receives royalty payments
+* **Royalty percentage** — applied to all secondary sales of your NFTs
+
+Click **Update Collection** and confirm. Your royalty settings are now written on-chain.
+
+***
+
+### Gas Costs
+
+XDC Network gas fees are near-zero. A full deployment, TestNet test, MainNet contract, minting, and royalty setup, costs a negligible amount of XDC in total.
+
+***
+
+### See Also
+
+* Using the Drops System — Launch a full collection with schedules and whitelists
+* How to Sell an NFT — List your minted NFTs for sale
+* Supported Networks — XDC Network RPC details
