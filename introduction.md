@@ -1,7 +1,5 @@
 # Introduction
 
-## Introduction
-
 PrimePort is a multichain NFT marketplace and DeFi-native launchpad built by [Prime Numbers Labs](https://primenumbers.xyz). Originally deployed on the XDC Network, PrimePort expanded to Base (Ethereum L2) via LayerZero integration, bringing yield-bearing NFT infrastructure to the Ethereum ecosystem.
 
 The protocol's core product is the **PRFI ONFT**: an ERC-721 token that functions as an on-chain yield vault. Holders stake $PRFI inside the NFT, earn from four distinct revenue streams, and level up through 20 tiers to increase their earnings multiplier, without ever leaving the marketplace.
