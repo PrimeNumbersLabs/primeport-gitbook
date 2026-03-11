@@ -1,6 +1,7 @@
 # Table of contents
 
 * [The PrimePort Marketplace](README.md)
+* [The PrimePort Marketplace](readme-1.md)
 * [Introduction](introduction.md)
 * [Getting Started](getting-started.md)
 * [Supported Networks](supported-networks.md)
