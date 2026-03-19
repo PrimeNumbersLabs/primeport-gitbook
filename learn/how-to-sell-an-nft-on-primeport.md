@@ -18,6 +18,8 @@ description: >-
 
 Click your wallet address or the **Profile** icon in the top-right corner and select **My Profile**. Your wallet's NFTs will appear here.
 
+<figure><img src="../.gitbook/assets/image.png" alt="" width="185"><figcaption></figcaption></figure>
+
 ***
 
 ### Step 2. Open the NFT and Click Sell
@@ -33,6 +35,8 @@ Fill in the listing details:
 * **Currency.** Select the currency for the sale (XDC on XDC Network, ETH on Base)
 * **Price.** Enter your asking price
 * **Expiry date.** Set when the listing should expire
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 20.07.45.png" alt="" width="188"><figcaption></figcaption></figure>
 
 Check the **I agree to the Terms of Service** box and click **List Item**.
 

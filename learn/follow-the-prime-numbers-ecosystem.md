@@ -36,8 +36,7 @@
 | Platform          |                                                            |
 | ----------------- | ---------------------------------------------------------- |
 | X — Prime Numbers | [@PrimeNumbersFi](https://x.com/PrimeNumbersFi)            |
-| X — PrimePort     | [@PrimePortXYZ](https://x.com/PrimeportXYZ)                |
-| X — PrimeFi       | [@PrimeFinanceXYZ](https://x.com/PrimeFinanceXYZ)          |
+| X — PrimeFi       | [@PrimeFi](https://x.com/primefixyz)                       |
 | Medium            | [@PrimeNumbersFi](https://medium.com/@PrimeNumbersFi)      |
 | YouTube           | [@PrimeNumbersLabs](https://youtube.com/@PrimeNumbersLabs) |
 
@@ -45,8 +44,7 @@
 
 ### Community
 
-|                     |                                                                  |
-| ------------------- | ---------------------------------------------------------------- |
-| **Telegram Chat**   | [t.me/PrimeNumbersFi](https://t.me/PrimeNumbersFi)               |
-| **Telegram News**   | [t.me/PrimeNumbersChannel](https://t.me/PrimeNumbersChannel)     |
-| **Community Forum** | [community.primenumbers.xyz](https://community.primenumbers.xyz) |
+|                   |                                                              |
+| ----------------- | ------------------------------------------------------------ |
+| **Telegram Chat** | [t.me/PrimeNumbersFi](https://t.me/PrimeNumbersFi)           |
+| **Telegram News** | [t.me/PrimeNumbersChannel](https://t.me/PrimeNumbersChannel) |

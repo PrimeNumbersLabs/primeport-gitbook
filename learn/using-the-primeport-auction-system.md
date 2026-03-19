@@ -10,7 +10,7 @@ Auctions let you sell an NFT to the highest bidder over a set time window. Unlik
 
 ### Creating an Auction
 
-Go to **My Profile**, open the NFT you want to auction, and click **Sell**. Select the **Auction** tab on the listing form.
+Go to **My Profile**, open the NFT you want to auction, and click **Start Auction**.&#x20;
 
 Fill in the following fields:
 
@@ -18,6 +18,8 @@ Fill in the following fields:
 * **End date** — When bidding closes. No bids are accepted after this time.
 * **Starting price** — The minimum bid required to start the auction.
 * **Reserve price** _(optional)_ — A hidden minimum. If the highest bid does not reach this amount, the auction ends without a sale.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 20.09.45.png" alt="" width="188"><figcaption></figcaption></figure>
 
 Check the **Terms of Service** box and click **Create Auction**. Confirm the transaction in your wallet to publish the listing.
 

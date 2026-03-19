@@ -1,12 +1,12 @@
 # Minting NFTs on PrimePort
 
-<figure><img src="../.gitbook/assets/Minting Cover Photo.png" alt=""><figcaption></figcaption></figure>
-
 ## Using the Drops System
 
 The Drops system on PrimePort allows creators to launch NFT collections with configurable mint schedules, whitelist phases, and pricing waves. For collectors, it's the primary way to mint NFTs at primary sale prices before they reach secondary market.
 
 > **Note:** The Drops system currently operates on **XDC Network**.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 20.12.40.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
