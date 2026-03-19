@@ -6,11 +6,15 @@ description: A guide to buying an NFT on our PrimePort marketplace
 
 
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-11 a las 17.03.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 19.43.51.png" alt="" width="563"><figcaption></figcaption></figure>
 
 PrimePort supports two networks: **XDC Network** and **Base** (Ethereum L2). The buying flow is identical on both, the only difference is which network your wallet is on and which token you use for gas.
 
-> **PRFI ONFTs** are on Base and priced in ETH. **XDC collections** are on XDC Network and priced in XDC.
+> **PRFI ONFTs** are on Base and priced in ETH.&#x20;
+>
+> **XDC collections** are on XDC Network and priced in XDC.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 19.44.26.png" alt="" width="374"><figcaption></figcaption></figure>
 
 ***
 
@@ -28,6 +32,8 @@ Go to [primeport.xyz](https://primeport.xyz) and click **Connect Wallet** in the
 
 Once connected, your wallet address and balance will appear in the navbar.
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 19.45.31.png" alt="" width="172"><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 If you are buying a PRFI ONFT, make sure your wallet is set to the **Base** network before connecting. If you are buying an XDC collection, switch to **XDC Network**.
 {% endhint %}
@@ -38,6 +44,8 @@ If you are buying a PRFI ONFT, make sure your wallet is set to the **Base** netw
 
 Browse collections from the homepage or use the **Collections** menu to find a specific project. Open a collection and use the **Items** tab to see all NFTs currently listed for sale.
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 19.59.12.png" alt="" width="375"><figcaption></figcaption></figure>
+
 You can filter by price, sort by rarity, or search by Token ID to narrow down your options.
 
 ***
@@ -46,10 +54,14 @@ You can filter by price, sort by rarity, or search by Token ID to narrow down yo
 
 Click any listed NFT to open its detail page. Here you will see:
 
-* Current listing price
-* Rarity and traits
+* Offers: Current listing price
+* Properties: Rarity and traits
 * Owner history and activity
 * For PRFI ONFTs: staking level, multiplier, and staked PRFI
+
+
+
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -58,6 +70,8 @@ Click any listed NFT to open its detail page. Here you will see:
 Click **Buy Now**. Review the order summary, price, gas estimate, and any applicable royalties. Check the **Terms of Service** box and click **Confirm**.
 
 Your wallet will prompt you to approve the transaction. Confirm it and wait for the transaction to finalize on-chain. You will see a confirmation message once the purchase is complete.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2026-03-19 a las 20.02.47.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
